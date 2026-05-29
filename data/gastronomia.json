@@ -1,0 +1,261 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": {"es": "Platos de Trucha", "en": "Trout Dishes", "qu": "Challwa Tupuy", "ay": "Challwa Tupiy"},
+      "descripcion": {"es": "Especialidades culinarias basadas en la trucha fresca del Lago Titicaca", "en": "Culinary specialties based on fresh trout from Lake Titicaca", "qu": "Titicaca challwa michuy", "ay": "Titicaca challwa michiy"},
+      "imagen": "img/gastronomia/Ceviche de Trucha.jpg",
+      "platos": [
+        {
+          "id": 1.1,
+          "nombre": {"es": "Ceviche de Trucha", "en": "Trout Ceviche", "qu": "Challwa Ceviche", "ay": "Challwa Ceviche"},
+          "descripcion": {"es": "Plato frío preparado con trucha fresca marinada en limón, cebolla, ajíes y especias. Acompañado de camote y choclo.", "en": "Cold dish prepared with fresh trout marinated in lemon, onion, peppers and spices. Accompanied by sweet potato and corn.", "qu": "Challwa limunwan iskaycay tupuy", "ay": "Challwa limunwan iskaycay tupiy"},
+          "origen": {"es": "Tradición ancestral de costa y sierra", "en": "Ancestral tradition of coast and highlands", "qu": "Challpi llaqipi", "ay": "Challpi llaqipi"},
+          "imagen": "img/gastronomia/Ceviche de Trucha.jpg",
+          "ingredientes": [
+            {"es": "Trucha fresca", "en": "Fresh trout", "qu": "Challwa", "ay": "Challwa"},
+            {"es": "Limón jugo", "en": "Lemon juice", "qu": "Limun", "ay": "Limun"},
+            {"es": "Cebolla morada", "en": "Red onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Ají verde", "en": "Green chili", "qu": "Aci", "ay": "Aci"},
+            {"es": "Cilantro fresco", "en": "Fresh cilantro", "qu": "Perejil", "ay": "Perejil"},
+            {"es": "Camote amarillo", "en": "Yellow sweet potato", "qu": "Apala", "ay": "Apala"},
+            {"es": "Choclo peruano", "en": "Peruvian corn", "qu": "Sara", "ay": "Sara"}
+          ],
+          "caracteristicas": [
+            {"es": "Preparación rápida y fresca", "en": "Quick and fresh preparation", "qu": "Pisi tupuy", "ay": "Pisi tupiy"},
+            {"es": "Sabor ácido y picante equilibrado", "en": "Balanced acidic and spicy flavor", "qu": "Llasa allinta", "ay": "Llasa allinta"},
+            {"es": "Plato refrescante perfecto para clima cálido", "en": "Refreshing dish perfect for warm weather", "qu": "Qhali michuy", "ay": "Qhali michiy"},
+            {"es": "Presentación colorida y apetitosa", "en": "Colorful and appetizing presentation", "qu": "Sumaq rupay", "ay": "Sumaj rupay"}
+          ],
+          "temperatura": "Fría (4°C)",
+          "tiempo_preparacion": "20 minutos",
+          "porciones": 4
+        },
+        {
+          "id": 1.2,
+          "nombre": {"es": "Thimpo de Trucha", "en": "Trout Thimpo", "qu": "Challwa Thimpo", "ay": "Challwa Thimpo"},
+          "descripcion": {"es": "Sopa tradicional con trucha cocida, papas, cebolla y condimentos. Plato caliente y reconfortante.", "en": "Traditional soup with cooked trout, potatoes, onion and seasonings. Warm and comforting dish.", "qu": "Challwa papa yapay", "ay": "Challwa papa yapay"},
+          "origen": {"es": "Receta popular de comunidades lacustres de Puno", "en": "Popular recipe from Puno's lacustrine communities", "qu": "Titicaca llaqikuna", "ay": "Titicaca llaqikuna"},
+          "imagen": "img/gastronomia/Thimpo de Trucha.jpg",
+          "ingredientes": [
+            {"es": "Trucha entera o en filetes", "en": "Whole trout or fillets", "qu": "Challwa", "ay": "Challwa"},
+            {"es": "Papa amarilla", "en": "Yellow potato", "qu": "Papa", "ay": "Papa"},
+            {"es": "Cebolla blanca", "en": "White onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Ajo", "en": "Garlic", "qu": "Ayu", "ay": "Ayu"},
+            {"es": "Perejil", "en": "Parsley", "qu": "Perejil", "ay": "Perejil"},
+            {"es": "Sal y comino", "en": "Salt and cumin", "qu": "Kachi, kuminu", "ay": "Kachi, kuminu"},
+            {"es": "Aceite de oliva", "en": "Olive oil", "qu": "Aceite", "ay": "Aceite"}
+          ],
+          "caracteristicas": [
+            {"es": "Caldo sustancioso y sabroso", "en": "Hearty and tasty broth", "qu": "Allin yapay", "ay": "Allin yapay"},
+            {"es": "Trucha se desmorona suavemente", "en": "Trout crumbles softly", "qu": "Challwa sumaq", "ay": "Challwa sumaj"},
+            {"es": "Perfecta para clima frío de altitud", "en": "Perfect for cold high-altitude climate", "qu": "Qaqa qhali", "ay": "Qaqa qhali"},
+            {"es": "Plato nutritivo y energético", "en": "Nutritious and energetic dish", "qu": "Allin michuy", "ay": "Allin michiy"}
+          ],
+          "temperatura": "Caliente (70-80°C)",
+          "tiempo_preparacion": "30 minutos",
+          "porciones": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": {"es": "Platos de Papa", "en": "Potato Dishes", "qu": "Papa Tupuy", "ay": "Papa Tupiy"},
+      "descripcion": {"es": "Creaciones culinarias con papas nativas andinas, alimento ancestral de Puno", "en": "Culinary creations with native Andean potatoes, ancestral food of Puno", "qu": "Machu papa tupuy", "ay": "Machu papa tupiy"},
+      "imagen": "img/gastronomia/Papa a la Huancaina.webp",
+      "platos": [
+        {
+          "id": 2.1,
+          "nombre": {"es": "Papa a la Huancaína", "en": "Papa à la Huancaína", "qu": "Papa Uchu", "ay": "Papa Uchu"},
+          "descripcion": {"es": "Papas cocidas cubiertas con salsa cremosa de ají amarillo, queso fresco, leche y aceitunas. Plato emblemático de la gastronomía peruana.", "en": "Cooked potatoes covered with creamy yellow chili sauce, fresh cheese, milk and olives. Emblematic dish of Peruvian gastronomy.", "qu": "Papa uchunta queso kawsay", "ay": "Papa uchunta queso kawisiri"},
+          "origen": {"es": "Región de Huancayo adaptada a Puno con ingredientes locales", "en": "Huancayo region adapted to Puno with local ingredients", "qu": "Andes llaqipi", "ay": "Andes llaqipi"},
+          "imagen": "img/gastronomia/Papa a la Huancaina.webp",
+          "ingredientes": [
+            {"es": "Papa nativa", "en": "Native potato", "qu": "Papa", "ay": "Papa"},
+            {"es": "Ají amarillo", "en": "Yellow chili", "qu": "Aci amarillo", "ay": "Aci amarillo"},
+            {"es": "Queso fresco de cabra", "en": "Fresh goat cheese", "qu": "Queso", "ay": "Queso"},
+            {"es": "Leche evaporada", "en": "Evaporated milk", "qu": "Leche", "ay": "Leche"},
+            {"es": "Aceitunas negras", "en": "Black olives", "qu": "Aceituna", "ay": "Aceituna"},
+            {"es": "Huevo cocido", "en": "Boiled egg", "qu": "Ruru", "ay": "Ruru"},
+            {"es": "Cebolla morada", "en": "Red onion", "qu": "Siwilla", "ay": "Siwilla"}
+          ],
+          "caracteristicas": [
+            {"es": "Salsa cremosa y suave", "en": "Creamy and smooth sauce", "qu": "Uchu allin", "ay": "Uchu allin"},
+            {"es": "Colores vibrantes y atractivos", "en": "Vibrant and attractive colors", "qu": "Llama sumaq", "ay": "Llama sumaj"},
+            {"es": "Textura contrastante", "en": "Contrasting texture", "qu": "Tupay rikisqa", "ay": "Tupay rikisqa"},
+            {"es": "Sabor auténtico andino", "en": "Authentic Andean flavor", "qu": "Machu rumu", "ay": "Machu rumu"}
+          ],
+          "temperatura": "Tibia (25-30°C)",
+          "tiempo_preparacion": "25 minutos",
+          "porciones": 4
+        },
+        {
+          "id": 2.2,
+          "nombre": {"es": "Chajchu de Chuño", "en": "Chuño Salad", "qu": "Chuño Chajchu", "ay": "Chuño Chajchu"},
+          "descripcion": {"es": "Papa deshidratada andina (chuño) preparada como ensalada con cebolla, ají verde y especias. Plato ancestral que aprovecha técnicas prehispánicas.", "en": "Andean dehydrated potato (chuño) prepared as salad with onion, green chili and spices. Ancestral dish using pre-Hispanic techniques.", "qu": "Machu papa chajchu", "ay": "Machu papa chajchu"},
+          "origen": {"es": "Técnica de conservación incaica de los Andes", "en": "Incan conservation technique from the Andes", "qu": "Inka tupunapaq", "ay": "Inka tupunapaq"},
+          "imagen": "img/gastronomia/chajchu de Chuño.jpg",
+          "ingredientes": [
+            {"es": "Chuño (papa deshidratada)", "en": "Chuño (dehydrated potato)", "qu": "Chuño", "ay": "Chuño"},
+            {"es": "Cebolla blanca", "en": "White onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Ají verde", "en": "Green chili", "qu": "Aci verde", "ay": "Aci verde"},
+            {"es": "Cilantro", "en": "Cilantro", "qu": "Perejil", "ay": "Perejil"},
+            {"es": "Limón", "en": "Lemon", "qu": "Limun", "ay": "Limun"},
+            {"es": "Sal gruesa", "en": "Coarse salt", "qu": "Kachi", "ay": "Kachi"},
+            {"es": "Aceite de oliva", "en": "Olive oil", "qu": "Aceite", "ay": "Aceite"}
+          ],
+          "caracteristicas": [
+            {"es": "Textura crujiente y única", "en": "Crispy and unique texture", "qu": "Kinku rikisqa", "ay": "Kinku rikisqa"},
+            {"es": "Sabor ancestral y auténtico", "en": "Ancestral and authentic flavor", "qu": "Machu rumu", "ay": "Machu rumu"},
+            {"es": "Plato que conecta con la historia", "en": "Dish that connects with history", "qu": "Pacha runakuna", "ay": "Pacha runakuna"},
+            {"es": "Aporta nutrientes únicos", "en": "Provides unique nutrients", "qu": "Allin kawsay", "ay": "Allin kawisiri"}
+          ],
+          "temperatura": "Temperatura ambiente",
+          "tiempo_preparacion": "15 minutos",
+          "porciones": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": {"es": "Sopas y Caldos", "en": "Soups and Broths", "qu": "Yapay Tupuy", "ay": "Yapay Tupiy"},
+      "descripcion": {"es": "Preparaciones calientes que combinan granos andinos con verduras y especias locales", "en": "Hot preparations combining Andean grains with local vegetables and spices", "qu": "Machu llaqi tupuy", "ay": "Machu llaqi tupiy"},
+      "imagen": "img/gastronomia/Sopa de Quinua.avif",
+      "platos": [
+        {
+          "id": 3.1,
+          "nombre": {"es": "Sopa de Quinua", "en": "Quinoa Soup", "qu": "Kinua Yapay", "ay": "Kinua Yapay"},
+          "descripcion": {"es": "Sopa nutritiva con quinua, papas, verduras y especias. Plato ancestral rico en proteínas y minerales.", "en": "Nutritious soup with quinoa, potatoes, vegetables and spices. Ancestral dish rich in proteins and minerals.", "qu": "Kinua allin tupuy", "ay": "Kinua allin tupiy"},
+          "origen": {"es": "Cultivo ancestral de los Andes Centrales", "en": "Ancestral cultivation of Central Andes", "qu": "Machu kinua", "ay": "Machu kinua"},
+          "imagen": "img/gastronomia/Sopa de Quinua.avif",
+          "ingredientes": [
+            {"es": "Quinua blanca", "en": "White quinoa", "qu": "Kinua", "ay": "Kinua"},
+            {"es": "Papa cortada", "en": "Cut potatoes", "qu": "Papa", "ay": "Papa"},
+            {"es": "Zanahoria", "en": "Carrot", "qu": "Zanahoria", "ay": "Zanahoria"},
+            {"es": "Cebolla", "en": "Onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Caldo de verduras", "en": "Vegetable broth", "qu": "Atun yapay", "ay": "Atun yapay"},
+            {"es": "Ajo", "en": "Garlic", "qu": "Ayu", "ay": "Ayu"},
+            {"es": "Perejil y comino", "en": "Parsley and cumin", "qu": "Perejil, kuminu", "ay": "Perejil, kuminu"}
+          ],
+          "caracteristicas": [
+            {"es": "Rica en aminoácidos", "en": "Rich in amino acids", "qu": "Allin rumiñana", "ay": "Allin rumiñana"},
+            {"es": "Caldo suave y reconfortante", "en": "Soft and comforting broth", "qu": "Allin qhali", "ay": "Allin qhali"},
+            {"es": "Granos de quinua intactos", "en": "Intact quinoa grains", "qu": "Kinua tupay", "ay": "Kinua tupay"},
+            {"es": "Perfecta para restaurar energías", "en": "Perfect for restoring energy", "qu": "Yachakuy allin", "ay": "Yachakuy allin"}
+          ],
+          "temperatura": "Caliente (70-80°C)",
+          "tiempo_preparacion": "30 minutos",
+          "porciones": 4
+        },
+        {
+          "id": 3.2,
+          "nombre": {"es": "Pito de Canihua", "en": "Canihua Porridge", "qu": "Canihua Pito", "ay": "Canihua Pito"},
+          "descripcion": {"es": "Preparación ancestral con canihua tostada, papas y especias. Plato denso y nutritivo muy popular en comunidades andinas.", "en": "Ancestral preparation with roasted canihua, potatoes and spices. Dense and nutritious dish popular in Andean communities.", "qu": "Canihua machu tupuy", "ay": "Canihua machu tupiy"},
+          "origen": {"es": "Comunidades andinas de altura de Puno", "en": "High altitude Andean communities", "qu": "Punu qaqa llaqikuna", "ay": "Punu qaqa llaqikuna"},
+          "imagen": "img/gastronomia/Pito de canihua.jpg",
+          "ingredientes": [
+            {"es": "Canihua tostada", "en": "Roasted canihua", "qu": "Canihua", "ay": "Canihua"},
+            {"es": "Papa cortada", "en": "Cut potatoes", "qu": "Papa", "ay": "Papa"},
+            {"es": "Cebolla", "en": "Onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Ajo", "en": "Garlic", "qu": "Ayu", "ay": "Ayu"},
+            {"es": "Caldo", "en": "Broth", "qu": "Yapay", "ay": "Yapay"},
+            {"es": "Grasa de llama", "en": "Llama fat", "qu": "Glisa", "ay": "Glisa"},
+            {"es": "Sal", "en": "Salt", "qu": "Kachi", "ay": "Kachi"}
+          ],
+          "caracteristicas": [
+            {"es": "Consistencia espesa", "en": "Thick consistency", "qu": "Tupay atun", "ay": "Tupay atun"},
+            {"es": "Sabor terroso", "en": "Earthy flavor", "qu": "Allpa rumu", "ay": "Allpa rumu"},
+            {"es": "Altamente nutritivo", "en": "Highly nutritious", "qu": "Qaqa allin", "ay": "Qaqa allin"},
+            {"es": "Se mantiene caliente", "en": "Stays warm for hours", "qu": "Qhali tupay", "ay": "Qhali tupay"}
+          ],
+          "temperatura": "Caliente (65-75°C)",
+          "tiempo_preparacion": "35 minutos",
+          "porciones": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": {"es": "Platos Especiales", "en": "Special Dishes", "qu": "Allin Tupuy", "ay": "Allin Tupiy"},
+      "descripcion": {"es": "Especialidades únicas que representan lo mejor de la gastronomía puneña", "en": "Unique specialties representing the best of Puno's gastronomy", "qu": "Punu allin michuy", "ay": "Punu allin michiy"},
+      "imagen": "img/gastronomia/Mazamorra de Tocosh.jpg",
+      "platos": [
+        {
+          "id": 4.1,
+          "nombre": {"es": "Mazamorra de Tocosh", "en": "Tocosh Mazamorra", "qu": "Tocosh Zapallo", "ay": "Tocosh Zapallo"},
+          "descripcion": {"es": "Papa fermentada (tocosh) preparada como papilla cremosa con maíz y queso. Plato ancestral con beneficios probióticos.", "en": "Fermented potato (tocosh) prepared as creamy porridge with corn and cheese. Ancestral dish with probiotic benefits.", "qu": "Tocosh allin tupuy", "ay": "Tocosh allin tupiy"},
+          "origen": {"es": "Técnica prehispánica de fermentación", "en": "Pre-Hispanic fermentation technique", "qu": "Inka fermentación", "ay": "Inka fermentación"},
+          "imagen": "img/gastronomia/Mazamorra de Tocosh.jpg",
+          "ingredientes": [
+            {"es": "Tocosh", "en": "Tocosh", "qu": "Tocosh", "ay": "Tocosh"},
+            {"es": "Maíz blanco", "en": "White corn", "qu": "Sara", "ay": "Sara"},
+            {"es": "Leche fresca", "en": "Fresh milk", "qu": "Leche", "ay": "Leche"},
+            {"es": "Queso fresco", "en": "Fresh cheese", "qu": "Queso", "ay": "Queso"},
+            {"es": "Cebolla", "en": "Onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Ajo", "en": "Garlic", "qu": "Ayu", "ay": "Ayu"},
+            {"es": "Sal y comino", "en": "Salt and cumin", "qu": "Kachi, kuminu", "ay": "Kachi, kuminu"}
+          ],
+          "caracteristicas": [
+            {"es": "Textura suave", "en": "Smooth texture", "qu": "Allin tupay", "ay": "Allin tupay"},
+            {"es": "Sabor único", "en": "Unique flavor", "qu": "Ramu rikisqa", "ay": "Ramu rikisqa"},
+            {"es": "Probióticos naturales", "en": "Natural probiotics", "qu": "Allin rumiñana", "ay": "Allin rumiñana"},
+            {"es": "Facilita digestión", "en": "Aids digestion", "qu": "Michuy allin", "ay": "Michiy allin"}
+          ],
+          "temperatura": "Caliente (60-70°C)",
+          "tiempo_preparacion": "25 minutos",
+          "porciones": 4
+        },
+        {
+          "id": 4.2,
+          "nombre": {"es": "Uchucuta", "en": "Uchucuta Sauce", "qu": "Uchu Allinta", "ay": "Uchu Allinta"},
+          "descripcion": {"es": "Salsa picante tradicional con ajíes frescos, queso y tostadas de maíz. Se sirve como acompañamiento o entrada.", "en": "Traditional spicy sauce with fresh peppers, cheese and toasted corn. Served as a side or appetizer.", "qu": "Uchu allin tupuy", "ay": "Uchu allin tupiy"},
+          "origen": {"es": "Receta ancestral de comunidades campesinas", "en": "Ancestral recipe from rural communities", "qu": "Llaqta runakuna", "ay": "Llaqta runakuna"},
+          "imagen": "img/gastronomia/Uchucuta.jpg",
+          "ingredientes": [
+            {"es": "Ají rojo fresco", "en": "Fresh red chili", "qu": "Aci puka", "ay": "Aci puka"},
+            {"es": "Queso fresco", "en": "Fresh cheese", "qu": "Queso", "ay": "Queso"},
+            {"es": "Tostadas de maíz", "en": "Corn toasts", "qu": "Sara tostado", "ay": "Sara tostado"},
+            {"es": "Cebolla morada", "en": "Red onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Huacatay", "en": "Peruvian mint", "qu": "Wakatay", "ay": "Wakatay"},
+            {"es": "Limón", "en": "Lemon", "qu": "Limun", "ay": "Limun"},
+            {"es": "Sal", "en": "Salt", "qu": "Kachi", "ay": "Kachi"}
+          ],
+          "caracteristicas": [
+            {"es": "Picante intenso", "en": "Intense spice", "qu": "Aci allin", "ay": "Aci allin"},
+            {"es": "Textura crujiente", "en": "Crispy texture", "qu": "Kinku tupay", "ay": "Kinku tupay"},
+            {"es": "Aroma aromático", "en": "Aromatic scent", "qu": "Sumaq wayka", "ay": "Sumaj wayka"},
+            {"es": "Estimula apetito", "en": "Stimulates appetite", "qu": "Michuy aupa", "ay": "Michiy aupa"}
+          ],
+          "temperatura": "Ambiente",
+          "tiempo_preparacion": "15 minutos",
+          "porciones": 6
+        },
+        {
+          "id": 4.3,
+          "nombre": {"es": "Kankacho", "en": "Kankacho Stew", "qu": "Kankacho Tupuy", "ay": "Kankacho Tupiy"},
+          "descripcion": {"es": "Guiso tradicional con carne deshidratada (charque), papas y salsa roja. Plato ancestral de las alturas andinas.", "en": "Traditional stew with dried meat (charque), potatoes and red sauce. Ancestral dish from Andean highlands.", "qu": "Machu charque tupuy", "ay": "Machu charque tupiy"},
+          "origen": {"es": "Tradición de conservación de carnes", "en": "Tradition of meat preservation", "qu": "Qaqa runakuna", "ay": "Qaqa runakuna"},
+          "imagen": "img/gastronomia/Kankacho.aspx",
+          "ingredientes": [
+            {"es": "Charque", "en": "Dried meat", "qu": "Charque", "ay": "Charque"},
+            {"es": "Papa", "en": "Potatoes", "qu": "Papa", "ay": "Papa"},
+            {"es": "Ají rojo", "en": "Red chili", "qu": "Aci puka", "ay": "Aci puka"},
+            {"es": "Cebolla", "en": "Onion", "qu": "Siwilla", "ay": "Siwilla"},
+            {"es": "Tomate", "en": "Tomato", "qu": "Tomate", "ay": "Tomate"},
+            {"es": "Ajo", "en": "Garlic", "qu": "Ayu", "ay": "Ayu"},
+            {"es": "Comino y sal", "en": "Cumin and salt", "qu": "Kuminu, kachi", "ay": "Kuminu, kachi"}
+          ],
+          "caracteristicas": [
+            {"es": "Sabor ahumado", "en": "Smoky flavor", "qu": "Humu rumu", "ay": "Humu rumu"},
+            {"es": "Carne tierna", "en": "Tender meat", "qu": "Atun allin", "ay": "Atun allin"},
+            {"es": "Salsa espesa", "en": "Thick sauce", "qu": "Uchu allin", "ay": "Uchu allin"},
+            {"es": "Muy energético", "en": "Very energetic", "qu": "Yachakuy atun", "ay": "Yachakuy atun"}
+          ],
+          "temperatura": "Caliente (75-85°C)",
+          "tiempo_preparacion": "40 minutos",
+          "porciones": 4
+        }
+      ]
+    }
+  ]
+}

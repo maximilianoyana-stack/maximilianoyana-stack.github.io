@@ -1,0 +1,19 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "nombre": {"es": "Lago Titicaca", "en": "Lake Titicaca", "qu": "Titiqaqa Qucha", "ay": "Titiqaqa Laqu"},
+      "descripcion": {"es": "El lago navegable mS alto del mundo, compartido entre Per y Bolivia. Con una extensi de 8,562 km, es el lago de agua dulce mS grande de AmSrica del Sur. Posee una riqueza incalculable de biodiversidad.", "en": "The highest navigable lake in the world, shared between Peru and Bolivia.", "qu": "Anan llaqisqa qucha", "ay": "Jach'a laqu"},
+      "historia": {"es": "Segn la mitolog inca, lugar donde Inti orden a Manco Cpac y Mama Ocllo a fundar el imperio. Conocido como la 'Cuna de las Civilizaciones Andinas'.", "en": "Birthplace of Andean civilizations", "qu": "Inka llano aranpiri", "ay": "Inka jach'a runanakar aranpiri"},
+      "ubicacion": "Puno, 12N 69O",
+      "caracteristicas": [
+        {"es": "Altitud: 3,810 m", "en": "Altitude: 3,810 m", "qu": "Anan: 3,810 m", "ay": "Anan: 3,810 m"},
+        {"es": "Superficie: 8,562 km", "en": "Surface: 8,562 km", "qu": "Puriq: 8,562 km", "ay": "Puriq: 8,562 km"},
+        {"es": "Profundidad mmaxima: 281 m", "en": "Max depth: 281 m", "qu": "Ala-ala: 281 m", "ay": "Ala-ala: 281 m"},
+        {"es": "Temperatura: 10-15C", "en": "Temperature: 10-15C", "qu": "Initta: 10-15C", "ay": "Initta: 10-15C"}
+      ],
+      "imagen": "img/pictures/lagotiticaca.gif",
+      "mapa": {"lat": -15.8422, "lng": -70.2975, "zoom": 10}
+    }
+  ]
+}

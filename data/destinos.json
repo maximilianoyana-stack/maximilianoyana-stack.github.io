@@ -1,0 +1,265 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "nombre": {"es": "Lago Titicaca", "en": "Lake Titicaca", "qu": "Titiqaqa Qucha", "ay": "Titiqaqa Laqu"},
+      "descripcion": {"es": "El lago navegable más alto del mundo, compartido entre Perú y Bolivia. Con una extensión de 8,562 km², es el lago de agua dulce más grande de América del Sur. Posee una riqueza incalculable de biodiversidad.", "en": "The highest navigable lake in the world, shared between Peru and Bolivia.", "qu": "Anan llaqisqa qucha", "ay": "Jach'a laqu"},
+      "historia": {"es": "Según la mitología inca, lugar donde Inti ordenó a Manco Cápac y Mama Ocllo a fundar el imperio. Conocido como la 'Cuna de las Civilizaciones Andinas'.", "en": "Birthplace of Andean civilizations", "qu": "Inka llano aranpiri", "ay": "Inka jach'a runanakar aranpiri"},
+      "ubicacion": "Puno, 12°N 69°O",
+      "caracteristicas": [
+        {"es": "Altitud: 3,810 m", "en": "Altitude: 3,810 m", "qu": "Anan: 3,810 m", "ay": "Anan: 3,810 m"},
+        {"es": "Superficie: 8,562 km²", "en": "Surface: 8,562 km²", "qu": "Puriq: 8,562 km²", "ay": "Puriq: 8,562 km²"},
+        {"es": "Profundidad máxima: 281 m", "en": "Max depth: 281 m", "qu": "Ala-ala: 281 m", "ay": "Ala-ala: 281 m"},
+        {"es": "Temperatura: 10-15°C", "en": "Temperature: 10-15°C", "qu": "Initta: 10-15°C", "ay": "Initta: 10-15°C"}
+      ],
+      "imagen": "img/Destinos/Lago titicaca.jpg",
+      "mapa": {"lat": -15.8422, "lng": -70.2975, "zoom": 10}
+    },
+    {
+      "id": 2,
+      "nombre": {"es": "Islas Uros", "en": "Uros Islands", "qu": "Uros Ayllu", "ay": "Uros Ayllunaka"},
+      "descripcion": {"es": "Islas flotantes construidas sobre raíces de totora. Hogar de la comunidad Uros, una de las culturas más antiguas del Perú que vive sobre el agua. 100% de totora.", "en": "Floating islands built on totora reed roots", "qu": "Totora raisipi wañusqa isla", "ay": "Totora raisipi lurusiña isla"},
+      "historia": {"es": "Pobladores Uros tienen 2,000 años de antigüedad. Construyeron islas flotantes para escapar de los incas. Hoy viven de manera similar a sus antepasados.", "en": "Oldest culture in Peru", "qu": "Uru runakuna Amerka awpa runkakuna", "ay": "Uru runakuna Amerka awpa runkakuna"},
+      "ubicacion": "Lago Titicaca, 20 km de Puno",
+      "caracteristicas": [
+        {"es": "Población: 2,500 habitantes", "en": "Population: 2,500", "qu": "Runa: 2,500", "ay": "Runa: 2,500"},
+        {"es": "Construcción: 100% totora", "en": "Construction: 100% totora", "qu": "Lurana: Isant Totora", "ay": "Lurawi: Isant Totora"},
+        {"es": "Idioma: Aymara", "en": "Language: Aymara", "qu": "Simi: Aymara", "ay": "Aymara simi"},
+        {"es": "Renovación: Cada 15 años", "en": "Renewal: Every 15 years", "qu": "Llaqikay: 15 wata", "ay": "Lurañakay: 15 wata"}
+      ],
+      "imagen": "img/Destinos/Isla Uros.jpg",
+      "mapa": {"lat": -15.5289, "lng": -70.1978, "zoom": 13}
+    },
+    {
+      "id": 3,
+      "nombre": {"es": "Isla Taquile", "en": "Taquile Island", "qu": "Taquila Ayllu", "ay": "Taquila Ayllunaka"},
+      "descripcion": {"es": "Isla prehispánica conocida como 'La Isla de los Tejedores'. Famosa por su textilería de tejidos únicos y tradiciones ancestrales. Patrimonio Cultural Inmaterial de la UNESCO.", "en": "The Island of Weavers with unique textiles", "qu": "Taquila ayllu chumpikuna llaqta", "ay": "Taquila ayllunaka chumpikuna llaqta"},
+      "historia": {"es": "Historia remonta a Urus y Aymaras preincaicos. Centro administrativo y religioso inca. Importante testimonio vivo de la cultura andina ancestral.", "en": "Pre-Inca administrative center", "qu": "Taquila ayllu Uru Aymara allapunchaw", "ay": "Taquila ayllunaka Uru Aymara allapunchaw"},
+      "ubicacion": "Lago Titicaca, 45 km de Puno",
+      "caracteristicas": [
+        {"es": "Población: 2,200 habitantes", "en": "Population: 2,200", "qu": "Runa: 2,200", "ay": "Runa: 2,200"},
+        {"es": "Altitud: 3,950 m", "en": "Altitude: 3,950 m", "qu": "Anan: 3,950 m", "ay": "Anan: 3,950 m"},
+        {"es": "Textilería con colores naturales", "en": "Natural colors textiles", "qu": "Aswan tissi: Llapa kallpachaw", "ay": "Aswan tissi: Llapa kallpachaw"},
+        {"es": "Productos: Chalecos, sombreros, mantas", "en": "Products: Vests, hats, blankets", "qu": "Aswan: Chaliku, tocapu", "ay": "Aswan: Chaliku, tocapu"}
+      ],
+      "imagen": "img/Destinos/Isla Taquile.png",
+      "mapa": {"lat": -15.6447, "lng": -69.3858, "zoom": 12}
+    },
+    {
+      "id": 4,
+      "nombre": {"es": "Ruinas de Sillustani", "en": "Sillustani Ruins", "qu": "Sillustani Puruwa", "ay": "Sillustani Puruwa"},
+      "descripcion": {"es": "Sitio arqueológico preinca de la cultura Colla con tumbas funerarias circulares llamadas 'chullpas'. Construidas entre los siglos XII y XVI. Conjunto funerario más importante del Altiplano.", "en": "Pre-Inca circular funeral tombs", "qu": "Sillustani Colla llaqta", "ay": "Sillustani Colla llaqta"},
+      "historia": {"es": "Principal cementerio ceremonial de la cultura Colla. Contemporánea a los Incas. Las chullpas alcanzaban 12 metros de altura para honrar a los muertos importantes.", "en": "Colla civilization funeral cemetery", "qu": "Sillustani Colla ayllu phukiywaypa", "ay": "Sillustani Colla ayllunaka phukiywaña"},
+      "ubicacion": "Puno, 35 km al norte",
+      "caracteristicas": [
+        {"es": "Época: Cultura Colla (1,200-1,532 d.C.)", "en": "Period: Colla Culture 1,200-1,532", "qu": "Pacha: Colla ayllu", "ay": "Pacha: Colla ayllunaka"},
+        {"es": "Número de chullpas: +80 estructuras", "en": "Number of chullpas: +80", "qu": "Chullpa: 80 kaykunaman", "ay": "Chullpa: 80 kaykunaman"},
+        {"es": "Altura máxima: 12 metros", "en": "Max height: 12 meters", "qu": "Altu: 12 metru", "ay": "Altu: 12 metru"},
+        {"es": "Material: Piedra arenisca sin mortero", "en": "Material: Sandstone without mortar", "qu": "Rumi: T'oqo rumi", "ay": "Rumi: T'oqo rumi"}
+      ],
+      "imagen": "img/Destinos/Ruinas de Sillustani.jpg",
+      "mapa": {"lat": -15.4074, "lng": -70.2896, "zoom": 13}
+    },
+    {
+      "id": 5,
+      "nombre": {"es": "Mirador Kuntur Wasi", "en": "Kuntur Wasi Viewpoint", "qu": "Kuntur Wasi", "ay": "Kuntur Wasi"},
+      "descripcion": {"es": "Mirador natural con vistas panorámicas espectaculares de Puno y el Lago Titicaca. Kuntur significa 'Cóndor' en quechua. Sitio sagrado andino donde se realizan ceremonias ancestrales.", "en": "Panoramic viewpoint of Puno and Lake Titicaca", "qu": "Kuntur Wasi - qucha qhawari", "ay": "Kuntur Wasi - qucha qhawari"},
+      "historia": {"es": "Lugar sagrado para comunidades indígenas andinas. El cóndor (kuntur) conecta el mundo terrenal con el celestial. Lugar de rituales para honrar a la naturaleza y los apus.", "en": "Sacred Andean ritual site", "qu": "Kuntur Wasi apu wasin", "ay": "Kuntur Wasi apu wasin"},
+      "ubicacion": "Puno, cerro occidental",
+      "caracteristicas": [
+        {"es": "Altitud: 3,960 m", "en": "Altitude: 3,960 m", "qu": "Anan: 3,960 m", "ay": "Anan: 3,960 m"},
+        {"es": "Fauna: Cóndores, águilas, halcones", "en": "Fauna: Condors, eagles", "qu": "Amaru kuna: Kuntur, anka", "ay": "Amaru kuna: Kuntur, anka"},
+        {"es": "Vista: 360° de Puno", "en": "View: 360° panoramic", "qu": "Qhawari: Puno llaqta", "ay": "Qhawari: Puno llaqta"},
+        {"es": "Mejor hora: Atardecer (17:00-19:00)", "en": "Best time: Sunset", "qu": "Allin hora: Llaq'i pacha", "ay": "Allin hora: Llaq'i pacha"}
+      ],
+      "imagen": "img/Destinos/Mirador-Kuntur-Wasi.jpg",
+      "mapa": {"lat": -15.5108, "lng": -70.1500, "zoom": 14}
+    },
+    {
+      "id": 6,
+      "nombre": {"es": "Catedral de Puno", "en": "Puno Cathedral", "qu": "Puno Templu", "ay": "Puno Templu"},
+      "descripcion": {"es": "Majestuosa catedral colonial construida en el siglo XVII. Declarada Patrimonio Cultural de la Nación. Arquitectura que combina estilos europeos con influencias andinas. Fachada de granito rosa característico del barroco virreinal.", "en": "Colonial cathedral with Baroque architecture", "qu": "Puno templu Colonial pacha", "ay": "Puno templu Colonial pacha"},
+      "historia": {"es": "Construida entre 1650 y 1757. Dedicada a la Virgen de la Candelaria. Símbolo del sincretismo entre fe cristiana y creencias andinas. Ha sufrido restauraciones a lo largo de los siglos.", "en": "Built 1650-1757 under Spanish supervision", "qu": "1650-1757 chakrana, Espanya runakuna", "ay": "1650-1757 chakrana, Espanya runakuna"},
+      "ubicacion": "Centro histórico de Puno",
+      "caracteristicas": [
+        {"es": "Época: Barroco Virreinal (1650-1757)", "en": "Period: Viceregal Baroque", "qu": "Pacha: Barroco pacha", "ay": "Pacha: Barroco pacha"},
+        {"es": "Material: Granito rosa y piedra tallada", "en": "Material: Pink granite", "qu": "Rumi: Rosa rumi", "ay": "Rumi: Rosa rumi"},
+        {"es": "Dimensiones: 38m x 25m", "en": "Dimensions: 38m x 25m", "qu": "Llakin: 38m x 25m", "ay": "Llakin: 38m x 25m"},
+        {"es": "Altares: 12 altares laterales ornamentados", "en": "Altars: 12 ornate side altars", "qu": "Altar: 12 alquin", "ay": "Altar: 12 alquin"}
+      ],
+      "imagen": "img/Destinos/Catedral-Puno.webp",
+      "mapa": {"lat": -15.5030, "lng": -70.1218, "zoom": 16}
+    },
+    {
+      "id": 7,
+      "nombre": {"es": "Complejo Kalasaya-Pucara", "en": "Kalasaya-Pucara Complex", "qu": "Kalasaya Pucara", "ay": "Kalasaya Pucara"},
+      "descripcion": {"es": "Sitio arqueológico prehispánico con ruinas de templos y fortalezas. Kalasaya = 'piedra parada', Pucara = 'fortaleza'. Muestra arquitectura defensiva y religiosa de civilizaciones antiguas.", "en": "Pre-Hispanic temples and fortress ruins", "qu": "Kalasaya-Pucara rumi stitinanchi", "ay": "Kalasaya-Pucara rumi stitinanchi"},
+      "historia": {"es": "Perteneció a cultura Pucara (700 a.C.-100 d.C.). Centro administrativo y ceremonial importante. Arquitectos dominaban técnicas avanzadas de construcción sin mortero.", "en": "Pucara culture 700 BC-100 AD", "qu": "Kalasaya-Pucara Pucara ayllu", "ay": "Kalasaya-Pucara Pucara ayllunaka"},
+      "ubicacion": "Pucara, 92 km de Puno",
+      "caracteristicas": [
+        {"es": "Época: Cultura Pucara (700 a.C.-100 d.C.)", "en": "Period: Pucara Culture", "qu": "Pacha: Pucara ayllu", "ay": "Pacha: Pucara ayllunaka"},
+        {"es": "Construcción: Bloques sin mortero", "en": "Construction: Blocks without mortar", "qu": "Lurana: Rumi alqua", "ay": "Lurawi: Rumi alqua"},
+        {"es": "Museo: Cerámica, textiles, herramientas", "en": "Museum: Pottery, textiles", "qu": "Museo: Tullpakunan", "ay": "Museo: Tullpakunan"},
+        {"es": "Acceso: 2 horas desde Puno", "en": "Access: 2 hours from Puno", "qu": "Ñan: Karru 2 hora", "ay": "Ñan: Karru 2 hora"}
+      ],
+      "imagen": "img/Destinos/Complejo Arqueologico-Kalasaya.jpg",
+      "mapa": {"lat": -15.0417, "lng": -70.3833, "zoom": 14}
+    },
+    {
+      "id": 8,
+      "nombre": {"es": "Tinajani - Ayaviri", "en": "Tinajani - Ayaviri", "qu": "Tinajani Ayaviri", "ay": "Tinajani Ayaviri"},
+      "descripcion": {"es": "Formación geológica única de cañón con paredes rojas de 200 metros. Utilizado en época prehispánica como laberinto defensivo. Paisaje surreal y espectacular.", "en": "Canyon with 200-meter red stone walls", "qu": "Tinajani rumi kichka 200 metru", "ay": "Tinajani rumi kichka 200 metru"},
+      "historia": {"es": "Sitio sagrado de culturas andinas antiguas. Utilizado para rituales de iniciación y ceremonias de paso. Incas lo llamaban 'La Casa del Espíritu del Rayo'.", "en": "Sacred site of ancient Andean cultures", "qu": "Tinajani apu wasin illapu apu", "ay": "Tinajani apu wasin illapu apu"},
+      "ubicacion": "Ayaviri, 140 km de Puno",
+      "caracteristicas": [
+        {"es": "Altura de paredes: 200 metros", "en": "Wall height: 200 meters", "qu": "Altu: 200 metru", "ay": "Altu: 200 metru"},
+        {"es": "Formación: Arcilla roja erosionada", "en": "Formation: Eroded red clay", "qu": "Rumi: Puka allpa", "ay": "Rumi: Puka allpa"},
+        {"es": "Actividades: Senderismo, fotografía", "en": "Activities: Hiking, photography", "qu": "Llaqikuna: Atipanakuy, retratuy", "ay": "Lurañanaka: Atipanakuy, retratuy"},
+        {"es": "Fauna: Vizcachas, perdices andinas", "en": "Fauna: Vizcachas, partridges", "qu": "Amaru: Vizcacha", "ay": "Amaru: Vizcacha"}
+      ],
+      "imagen": "img/Destinos/Tinajani-Ayaviri.jpg",
+      "mapa": {"lat": -14.9194, "lng": -70.5947, "zoom": 13}
+    },
+    {
+      "id": 9,
+      "nombre": {"es": "Puerta del Diablo - Aramu Muru", "en": "Devil's Gate - Aramu Muru", "qu": "Amaru Muru Pintira", "ay": "Amaru Muru Pintira"},
+      "descripcion": {"es": "Portada labrada en roca viva a orillas del Lago Titicaca. Mide 7 metros de altura. Leyenda local: entrada a ciudad sagrada subterránea donde viven los apus.", "en": "7-meter high portal carved in living rock", "qu": "Amaru Muru rumi pintira 7 metru", "ay": "Amaru Muru rumi pintira 7 metru"},
+      "historia": {"es": "Tallada por pueblos prehispánicos como templo subterráneo. Leyenda: sacerdote Inca entró custodiado por Inti y nunca regresó. Entrada a mundos paralelos según creencias preincaicas.", "en": "Pre-Hispanic underground temple entrance", "qu": "Amaru Muru rumi llaqichisqa inka", "ay": "Amaru Muru rumi lurariña inka"},
+      "ubicacion": "Chucuito, 60 km de Puno",
+      "caracteristicas": [
+        {"es": "Altura: 7 metros", "en": "Height: 7 meters", "qu": "Altu: 7 metru", "ay": "Altu: 7 metru"},
+        {"es": "Ancho: 3 metros", "en": "Width: 3 meters", "qu": "Ancho: 3 metru", "ay": "Ancho: 3 metru"},
+        {"es": "Material: Granito rojo tallado", "en": "Material: Red granite", "qu": "Rumi: Puka granitu", "ay": "Rumi: Puka granitu"},
+        {"es": "Profundidad de puerta: ~1 metro", "en": "Door depth: ~1 meter", "qu": "Ala-ala: 1 metru", "ay": "Ala-ala: 1 metru"}
+      ],
+      "imagen": "img/Destinos/Puerta del Diablo - Puno.jpg",
+      "mapa": {"lat": -15.3306, "lng": -70.2108, "zoom": 14}
+    },
+    {
+      "id": 10,
+      "nombre": {"es": "Templo de la Fertilidad - Chucuito", "en": "Fertility Temple - Chucuito", "qu": "Kawsay Templu", "ay": "Kawsay Templu"},
+      "descripcion": {"es": "Sitio arqueológico dedicado a veneración de fertilidad. Contiene piedras fálicas y elementos simbólicos relacionados con ciclos reproductivos andinos. Testigo de creencias ancestrales sobre vida y regeneración.", "en": "Pre-Hispanic fertility ritual site", "qu": "Kawsay templu kawsay munakuy", "ay": "Kawsay templu kawsay munakuy"},
+      "historia": {"es": "Centro ceremonial importante donde se realizaban rituales de fertilidad. Buscaban asegurar buenas cosechas y reproducción de rebaños. Venerado por los Aymara, testimonio de creencias cosmológicas.", "en": "Aymara fertility ceremony center", "qu": "Kawsay templu Aymara runakuna", "ay": "Kawsay templu Aymara runakuna"},
+      "ubicacion": "Chucuito, 55 km de Puno",
+      "caracteristicas": [
+        {"es": "Época: Cultura Aymara prehispánica", "en": "Period: Pre-Hispanic Aymara", "qu": "Pacha: Aymara ayllu", "ay": "Pacha: Aymara ayllunaka"},
+        {"es": "Elementos: Piedras fálicas y simbólicas", "en": "Elements: Phallic and symbolic stones", "qu": "Llaqikuna: Rumi ch'ulla", "ay": "Lurañanaka: Rumi ch'ulla"},
+        {"es": "Rituales: Ceremonias de fertilidad", "en": "Rituals: Fertility ceremonies", "qu": "Llaqikuna: Kawsay upachikuy", "ay": "Lurañanaka: Kawsay upachikuy"},
+        {"es": "Acceso: Por carretera a Chucuito", "en": "Access: By road to Chucuito", "qu": "Ñan: Karru Chucuito", "ay": "Ñan: Karru Chucuito"}
+      ],
+      "imagen": "img/Destinos/Templo-Fertilidad.jpg",
+      "mapa": {"lat": -15.4972, "lng": -70.0714, "zoom": 14}
+    },
+    {
+      "id": 11,
+      "nombre": {"es": "Isla Amantaní", "en": "Amantani Island", "qu": "Amantani Ayllu", "ay": "Amantani Ayllunaka"},
+      "descripcion": {"es": "Isla natural del Lago Titicaca famosa por sus terrazas agrícolas, sus comunidades quechuas y sus vistas panorámicas del lago. Ideal para turismo vivencial y caminatas culturales.", "en": "Natural island in Lake Titicaca known for agricultural terraces, Quechua communities and panoramic lake views.", "qu": "Titiqaqa quchapi sumaq isla, pata pata chakrawan, runa kawsaywan.", "ay": "Titiqaqa laquna suma isla, pata pata yapu ukhamaraki runa kawsayampi."},
+      "historia": {"es": "Amantaní conserva tradiciones ancestrales y organización comunal. Sus templos ceremoniales de Pachatata y Pachamama son centros rituales importantes para la vida espiritual local.", "en": "Amantani preserves ancestral traditions and communal organization. Its ceremonial temples are key spiritual centers.", "qu": "Amantani llaqtaqa ñawpa kawsaykunata waqaychan, Pachatata Pachamama wasi sagrado kan.", "ay": "Amantani markaxa nayra saräwinaka imaraki, Pachatata ukat Pachamama utanakaxa ajay tuqita wali wakiskiriwa."},
+      "ubicacion": "Lago Titicaca, 36 km de Puno",
+      "caracteristicas": [
+        {"es": "Altitud aproximada: 3,817 m", "en": "Approximate altitude: 3,817 m", "qu": "Anan: 3,817 m", "ay": "Anan: 3,817 m"},
+        {"es": "Turismo vivencial en casas familiares", "en": "Community homestay tourism", "qu": "Wasi wasipi kawsay puriy", "ay": "Utanakana jakasiña turismu"},
+        {"es": "Templos ceremoniales: Pachatata y Pachamama", "en": "Ceremonial temples: Pachatata and Pachamama", "qu": "Pachatata, Pachamama wasi sagrado", "ay": "Pachatata, Pachamama uta sagrado"},
+        {"es": "Atardeceres panorámicos del Titicaca", "en": "Panoramic Titicaca sunsets", "qu": "Inti yaykuy qhawari", "ay": "Inti jalanta qhawana"}
+      ],
+      "imagen": "img/Destinos/Isla Amantani.webp",
+      "mapa": {"lat": -15.6643, "lng": -69.7193, "zoom": 13}
+    },
+    {
+      "id": 12,
+      "nombre": {"es": "Playa Charcas - Capachica", "en": "Charcas Beach - Capachica", "qu": "Charcas Qucha Pampa", "ay": "Charcas Lakanthapi"},
+      "descripcion": {"es": "Playa andina de aguas tranquilas ubicada en la península de Capachica. Destaca por su paisaje natural, su arena clara y su ambiente ideal para descanso familiar.", "en": "Andean beach with calm waters located on the Capachica peninsula, ideal for family relaxation.", "qu": "Capachica llaqtapi sumaq qucha pampam, samaypaq allin mayu mayu.", "ay": "Capachica penínsulan suma playa, samart'añataki wali aski."},
+      "historia": {"es": "La zona de Capachica mantiene una fuerte tradición agrícola y lacustre. Playa Charcas se ha convertido en un punto de recreación local y de visita turística por su tranquilidad.", "en": "Capachica maintains strong agricultural and lake traditions. Charcas Beach is a local recreation and tourism point.", "qu": "Capachicaqa chakra llank'aywan qucha kawsaywan riqsisqa, Charcasqa samay puriypa allin mayu.", "ay": "Capachicaxa yapuchawi ukat laqu saräwimpi uñt'atawa, Charcas playa ukaxa samart'añataki wali munatawa."},
+      "ubicacion": "Capachica, 65 km de Puno",
+      "caracteristicas": [
+        {"es": "Aguas tranquilas y aptas para recreación", "en": "Calm waters suitable for recreation", "qu": "Ch'usaq yaku puqllaypaq", "ay": "Suma uma anat'añataki"},
+        {"es": "Vista panorámica al Lago Titicaca", "en": "Panoramic view of Lake Titicaca", "qu": "Titiqaqa qucha qhawari", "ay": "Titiqaqa laqu qhawana"},
+        {"es": "Zona ideal para picnic y descanso", "en": "Ideal area for picnics and relaxation", "qu": "Mikhuna apaykuspa samay", "ay": "Mank'asiña ukat samart'asiña"},
+        {"es": "Acceso por carretera desde Puno", "en": "Road access from Puno", "qu": "Punu llaqtamanta ñan karru", "ay": "Punu markata thakhi karru"}
+      ],
+      "imagen": "img/Destinos/Playa Charcas - Capachica.webp",
+      "mapa": {"lat": -15.6427, "lng": -69.8308, "zoom": 14}
+    }
+    ,
+    {
+      "id": 13,
+      "nombre": {"es": "Isla Suasi", "en": "Suasi Island", "qu": "Suasi Ayllu", "ay": "Suasi Ayllunaka"},
+      "descripcion": {"es": "Isla privada en el Lago Titicaca con hospedaje ecológico y senderos boscosos; lugar ideal para ecoturismo y observación de aves.", "en": "Private island in Lake Titicaca with eco-lodging and forest trails, ideal for ecotourism and birdwatching."},
+      "historia": {"es": "Isla utilizada tradicionalmente por comunidades locales; hoy convertida en un pequeño refugio ecológico que preserva flora nativa.", "en": "Traditionally used by local communities; now an ecological refuge preserving native flora."},
+      "ubicacion": "Lago Titicaca, cerca de Capachica",
+      "caracteristicas": [
+        {"es": "Hospedaje ecológico y actividades al aire libre", "en": "Eco-lodging and outdoor activities"},
+        {"es": "Senderos y miradores", "en": "Trails and viewpoints"},
+        {"es": "Observación de aves y naturaleza", "en": "Birdwatching and nature"}
+      ],
+      "imagen": "img/Destinos/Isla Suasi.jpg",
+      "mapa": {"lat": -15.6520, "lng": -69.8200, "zoom": 13}
+    },
+    {
+      "id": 14,
+      "nombre": {"es": "Isla Anapia", "en": "Anapia Island", "qu": "Anapia Ayllu", "ay": "Anapia Ayllunaka"},
+      "descripcion": {"es": "Isla tranquila en el Titicaca con comunidades de pesca y pequeñas playas, perfecta para turismo rural y paseos en bote.", "en": "Quiet island in Titicaca with fishing communities and small beaches, perfect for rural tourism and boat trips."},
+      "historia": {"es": "Poblaciones que mantienen prácticas tradicionales de pesca y festividades lacustres.", "en": "Communities maintain traditional fishing practices and lake festivities."},
+      "ubicacion": "Lago Titicaca",
+      "caracteristicas": [
+        {"es": "Playas pequeñas y comunidades pesqueras", "en": "Small beaches and fishing communities"},
+        {"es": "Actividades: pesca y tours en barco", "en": "Activities: fishing and boat tours"}
+      ],
+      "imagen": "img/Destinos/Isla Anapia.jpg",
+      "mapa": {"lat": -15.7200, "lng": -69.7000, "zoom": 13}
+    },
+    {
+      "id": 15,
+      "nombre": {"es": "Capachica (pueblo)", "en": "Capachica Village", "qu": "Capachica Llaqta", "ay": "Capachica Markanaka"},
+      "descripcion": {"es": "Pueblo tradicional sobre la península de Capachica con artesanías, fiestas y acceso a playas como Charcas.", "en": "Traditional village on the Capachica peninsula with crafts, festivals and access to beaches like Charcas."},
+      "historia": {"es": "Centro local de agricultura y pesca en la península, con ferias tradicionales durante todo el año.", "en": "Local center of agriculture and fishing on the peninsula, with traditional fairs year-round."},
+      "ubicacion": "Peninsula de Capachica",
+      "caracteristicas": [
+        {"es": "Artesanía y mercados locales", "en": "Crafts and local markets"},
+        {"es": "Acceso a playas y miradores", "en": "Access to beaches and viewpoints"}
+      ],
+      "imagen": "img/Destinos/Capachica.jpg",
+      "mapa": {"lat": -15.6400, "lng": -69.8350, "zoom": 13}
+    },
+    {
+      "id": 16,
+      "nombre": {"es": "Yunguyo", "en": "Yunguyo", "qu": "Yunguyo", "ay": "Yunguyo"},
+      "descripcion": {"es": "Ciudad fronteriza con Bolivia, conocida por sus mercados, artesanías y vistas al lago desde la ribera suroriental.", "en": "Border town with Bolivia, known for markets, crafts, and lakeside views from the southeastern shore."},
+      "historia": {"es": "Punto de encuentro comercial entre comunidades andinas y altiplánicas; intenso intercambio cultural y comercial.", "en": "Commercial meeting point between Andean and highland communities; intense cultural and commercial exchange."},
+      "ubicacion": "Sureste del lago Titicaca",
+      "caracteristicas": [
+        {"es": "Mercados fronterizos y artesanías", "en": "Border markets and handicrafts"},
+        {"es": "Vistas al Lago Titicaca", "en": "Views of Lake Titicaca"}
+      ],
+      "imagen": "img/Destinos/Yunguyo.jpg",
+      "mapa": {"lat": -16.1611, "lng": -69.4611, "zoom": 12}
+    },
+    {
+      "id": 17,
+      "nombre": {"es": "Mercado Central de Puno", "en": "Puno Central Market", "qu": "Puno Mercado", "ay": "Puno Mercado"},
+      "descripcion": {"es": "Corazón comercial de Puno donde se venden productos locales, alimentos frescos y artesanías. Excelente para vivir la vida cotidiana puneña.", "en": "Commercial heart of Puno selling local products, fresh food and crafts. Great to experience everyday life in Puno."},
+      "historia": {"es": "Punto de encuentro tradicional para agricultores y comerciantes locales desde hace décadas.", "en": "Traditional meeting point for farmers and local traders for decades."},
+      "ubicacion": "Centro histórico de Puno",
+      "caracteristicas": [
+        {"es": "Productos locales y gastronomía callejera", "en": "Local products and street food"},
+        {"es": "Artesanías y textiles", "en": "Handicrafts and textiles"}
+      ],
+      "imagen": "img/Destinos/Mercado Central.jpg",
+      "mapa": {"lat": -15.5035, "lng": -70.1210, "zoom": 16}
+    }
+    ,
+    {
+      "id": 18,
+      "nombre": {"es": "Puerto de Puno", "en": "Puno Port", "qu": "Puno Puerto", "ay": "Puno Puerto"},
+      "descripcion": {"es": "Punto principal de embarque en Puno hacia las islas del Lago Titicaca. Área con malecón, embarcaciones y actividades turísticas.", "en": "Main embarkation point in Puno for Lake Titicaca islands; waterfront area with boats and tourist activities."},
+      "historia": {"es": "Puerto tradicional de la ciudad, centro de tránsito lacustre y comercio desde épocas coloniales.", "en": "Historic port and center of lake transport and trade since colonial times."},
+      "ubicacion": "Costanera de Puno",
+      "caracteristicas": [
+        {"es": "Embarcaciones a las islas Uros y Taquile", "en": "Boats to Uros and Taquile islands"},
+        {"es": "Malecón y zona gastronómica", "en": "Boardwalk and dining area"}
+      ],
+      "imagen": "img/Destinos/Puerto Puno.webp",
+      "mapa": {"lat": -15.5010, "lng": -70.1205, "zoom": 15}
+    }
+  ]
+}

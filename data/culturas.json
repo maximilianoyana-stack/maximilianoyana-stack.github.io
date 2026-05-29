@@ -1,0 +1,338 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": {
+        "es": "Danzas Autóctonas",
+        "en": "Native Dances",
+        "qu": "Llaqta Tusuy",
+        "ay": "Llaqta Tusiri"
+      },
+      "descripcion": {
+        "es": "Expresiones ancestrales que mantienen viva la tradición andina. Patrimonio Cultural Inmaterial de la Humanidad.",
+        "en": "Ancestral expressions that keep Andean tradition alive. Intangible Cultural Heritage of Humanity.",
+        "qu": "Machu pura kawsay tupuy",
+        "ay": "Machu pura kawsay tupuy"
+      },
+      "imagen": "img/Cultura/Diablada.jpg",
+      "subcategorias": [
+        {
+          "id": 1.1,
+          "nombre": {"es": "Danza de los Negritos", "en": "Dance of the Negritos", "qu": "Negro Tusuy", "ay": "Negro Tusiri"},
+          "descripcion": {"es": "Danza satírica que representa la vida de los esclavos africanos en la época colonial.", "en": "Satirical dance representing the life of African slaves during colonial times.", "qu": "Mañac runakuna tupuy", "ay": "Mañac runakuna tupiy"},
+          "fechaAniversario": "Febrero",
+          "imagen": "img/Cultura/Danza de los Negritos.jpg",
+          "caracteristicas": [
+            {"es": "Movimientos vibrantes y satíricos", "en": "Vibrant and satirical movements", "qu": "Sasak tupuy", "ay": "Sasak tupiy"},
+            {"es": "Máscaras y trajes negros", "en": "Black masks and costumes", "qu": "Yana maskara", "ay": "Yana maskara"},
+            {"es": "Música con ritmo acelerado", "en": "Fast-paced rhythm music", "qu": "Llasu músiqa", "ay": "Llasu músiqa"},
+            {"es": "Crítica social implícita", "en": "Implicit social criticism", "qu": "Sociedad rimay", "ay": "Sociedad rimawi"}
+          ],
+          "significado": {"es": "Expresión de resistencia y crítica a la opresión colonial", "en": "Expression of resistance to colonial oppression", "qu": "Kolonya llaqiy contra", "ay": "Kolonya llaqiy contra"}
+        },
+        {
+          "id": 1.2,
+          "nombre": {"es": "Diablada", "en": "Diablada", "qu": "Supay Tusuy", "ay": "Supay Tusiri"},
+          "descripcion": {"es": "Danza originaria de la minería que representa la lucha entre el bien y el mal.", "en": "Dance originating from mining representing the struggle between good and evil.", "qu": "Mineral llaqipi allin sulkay", "ay": "Mineral llaqipi allin sulkay"},
+          "fechaAniversario": "Enero-Febrero",
+          "imagen": "img/Cultura/Diablada.jpg",
+          "caracteristicas": [
+            {"es": "Máscaras de diablos elaboradas", "en": "Elaborate devil masks", "qu": "Supay rupaq maskara", "ay": "Supay rupaq maskara"},
+            {"es": "Movimientos acrobáticos", "en": "Acrobatic movements", "qu": "Achkha llaqikuna", "ay": "Achkha lurañanaka"},
+            {"es": "Disfraces con cuernos y alas", "en": "Costumes with horns and wings", "qu": "Ñawi maskara", "ay": "Ñawi maskara"},
+            {"es": "Representa lucha espiritual", "en": "Represents spiritual struggle", "qu": "Ama kawsay tupuy", "ay": "Ama kawisiri tupuy"}
+          ],
+          "significado": {"es": "La más emblemática de Puno, símbolo de identidad cultural puneña", "en": "Most emblematic of Puno, symbol of Puneño cultural identity", "qu": "Punu sumaq tupuy", "ay": "Punu sumaj tupiri"}
+        },
+        {
+          "id": 1.3,
+          "nombre": {"es": "Morenada", "en": "Morenada", "qu": "Morena Tusuy", "ay": "Morena Tusiri"},
+          "descripcion": {"es": "Danza que evoca la historia de los trabajadores mineros con movimientos lentos y profundos.", "en": "Dance evoking the history of mine workers with slow and deep movements.", "qu": "Mineral llaqi runa tupuy", "ay": "Mineral llaqi runa tusiri"},
+          "fechaAniversario": "Febrero",
+          "imagen": "img/Cultura/Morenada.png",
+          "caracteristicas": [
+            {"es": "Parejas enfrentadas bailando", "en": "Opposing couples dancing", "qu": "Iskaynin runa tupuy", "ay": "Iskaynin runa tusiri"},
+            {"es": "Competencia amistosa", "en": "Friendly competition", "qu": "Allin sulkay", "ay": "Allin sulkay"},
+            {"es": "Trajes de colores vivos", "en": "Bright colored costumes", "qu": "Llama rupaq", "ay": "Llama rupaq"},
+            {"es": "Celebra la unidad comunitaria", "en": "Celebrates community unity", "qu": "Ayllu kawsay", "ay": "Ayllu kawisiri"}
+          ],
+          "significado": {"es": "Ritual de encuentro entre comunidades que fortalece lazos sociales", "en": "Meeting ritual between communities that strengthens social bonds", "qu": "Ayllu tinkuy", "ay": "Ayllu tinkuy"}
+        },
+        {
+          "id": 1.5,
+          "nombre": {"es": "Ayarachis", "en": "Ayarachis", "qu": "Ayarachi", "ay": "Ayarachi"},
+          "descripcion": {"es": "Danza tradicional que combina características de varias regiones andinas con ritmo musical característico.", "en": "Traditional dance that combines characteristics from various Andean regions with characteristic musical rhythm.", "qu": "Andes-Llaqta tupuy", "ay": "Andes-Llaqta tusiri"},
+          "fechaAniversario": "Festividades",
+          "imagen": "img/Cultura/Ayarachis.jpg",
+          "caracteristicas": [
+            {"es": "Movimientos coordinados en parejas", "en": "Coordinated pair movements", "qu": "Iskaynin tupuy", "ay": "Iskaynin tusiri"},
+            {"es": "Ritmo dinámico y energético", "en": "Dynamic and energetic rhythm", "qu": "Pisi músiqa", "ay": "Pisi músiqa"},
+            {"es": "Trajes de colores vibrantes", "en": "Vibrant colored costumes", "qu": "Llama rupaq", "ay": "Llama rupaq"},
+            {"es": "Integración de varias culturas andinas", "en": "Integration of various Andean cultures", "qu": "Andes Llaqta kawsay", "ay": "Andes Llaqta kawisiri"}
+          ],
+          "significado": {"es": "Símbolo de integración y convivencia entre pueblos andinos", "en": "Symbol of integration and coexistence between Andean peoples", "qu": "Llaqta tinkuy", "ay": "Llaqta tinkuy"}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": {"es": "Instrumentos de Viento", "en": "Wind Instruments", "qu": "Samiri Runakuna", "ay": "Samiri Runakuna"},
+      "descripcion": {"es": "Instrumentos ancestrales de viento que generan los sonidos más emblemáticos de la música andina.", "en": "Ancestral wind instruments that produce the most emblematic sounds of Andean music.", "qu": "Machu samiri tupuy", "ay": "Machu samiri tupiy"},
+      "imagen": "img/Cultura/Tarkas.jpg",
+      "subcategorias": [
+        {
+          "id": 5.1,
+          "nombre": {"es": "Tarkas", "en": "Tarkas", "qu": "Tarka", "ay": "Tarka"},
+          "descripcion": {"es": "Instrumento de viento andino antiguo con sonido profundo y penetrante. Instrumento ceremonial sagrado.", "en": "Ancient Andean wind instrument with deep and penetrating sound. Sacred ceremonial instrument.", "qu": "Machu samiri tarka", "ay": "Machu samiri tarka"},
+          "fechaAniversario": "Festividades",
+          "imagen": "img/Cultura/Tarkas.jpg",
+          "caracteristicas": [
+            {"es": "Fabricado en madera de árbol coihue", "en": "Made from coihue tree wood", "qu": "Quishka rupay", "ay": "Quishka rupay"},
+            {"es": "Sonido grave y melancólico", "en": "Deep and melancholic sound", "qu": "Ama samiri taki", "ay": "Ama samiri taqi"},
+            {"es": "Posee 6 agujeros de digitación", "en": "Has 6 fingering holes", "qu": "Suqta tullu", "ay": "Suqta tullu"},
+            {"es": "Predominante en composiciones ceremoniales", "en": "Predominant in ceremonial compositions", "qu": "Apunchik samiri", "ay": "Apunchik samiri"}
+          ],
+          "significado": {"es": "Voz de los espíritus ancestrales que conecta el mundo terrenal con lo divino", "en": "Voice of ancestral spirits connecting the earthly world with the divine", "qu": "Apu samiri", "ay": "Apu samiri"}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": {"es": "Costumbres y Tradiciones", "en": "Customs and Traditions", "qu": "Kawsay Usunakuna", "ay": "Kawisiri Usunakuna"},
+      "descripcion": {"es": "Prácticas ancestrales vigentes que definen la identidad cultural puneña en la vida cotidiana.", "en": "Ancestral practices that define Puneño cultural identity in daily life.", "qu": "Runa kawsay tupuy", "ay": "Runa kawisiri tupuy"},
+      "imagen": "img/Cultura/Tejido puneño.jpg",
+      "subcategorias": [
+        {
+          "id": 3.1,
+          "nombre": {"es": "Tejido Puneño", "en": "Puneño Weaving", "qu": "Punu Aswan", "ay": "Punu Aswan"},
+          "descripcion": {"es": "Arte ancestral de tejido en telares tradicionales con motivos andinos únicos.", "en": "Ancestral art of weaving on traditional looms with unique Andean motifs.", "qu": "Mayu awapa tupunapaq aswan", "ay": "Mayu awapa tupunapaq aswan"},
+          "fechaAniversario": "Todo el año",
+          "imagen": "img/Cultura/Tejido puneño.jpg",
+          "caracteristicas": [
+            {"es": "Telares manuales tradicionales", "en": "Traditional manual looms", "qu": "Mayu rikisqa", "ay": "Mayu rikisqa"},
+            {"es": "Lanas teñidas naturalmente", "en": "Naturally dyed wool", "qu": "Llantu tupuy", "ay": "Llantu tupuy"},
+            {"es": "Motivos geométricos prehispánicos", "en": "Pre-Hispanic geometric motifs", "qu": "Inka qillqay", "ay": "Inka qillqay"},
+            {"es": "Cada pieza es única e irrepetible", "en": "Each piece is unique and unrepeatable", "qu": "Maynillachu aswan", "ay": "Maynillachu aswan"}
+          ],
+          "significado": {"es": "Expresión de identidad cultural. Los diseños cuentan historias ancestrales", "en": "Expression of cultural identity. Designs tell ancestral stories", "qu": "Runa kawsay qillqay", "ay": "Runa kawisiri qillqay"}
+        },
+        {
+          "id": 3.2,
+          "nombre": {"es": "Cerámica Andina", "en": "Andean Ceramics", "qu": "Apachita Rupay", "ay": "Apachita Rupay"},
+          "descripcion": {"es": "Creación de vasijas de barro con formas rituales y decorativas de tradición ancestral.", "en": "Creation of clay vessels with ritual and decorative forms of ancestral tradition.", "qu": "Allpa rupay inka tupuy", "ay": "Allpa rupay inka tupiy"},
+          "fechaAniversario": "Mercados artesanales",
+          "imagen": "img/Cultura/Ceramica puno.webp",
+          "caracteristicas": [
+            {"es": "Arcilla local moldeada a mano", "en": "Locally molded clay by hand", "qu": "Allpa runakunapa", "ay": "Allpa runakunapa"},
+            {"es": "Símbolos religiosos andinos", "en": "Andean religious symbols", "qu": "Apunchik tupuy", "ay": "Apunchik tupiy"},
+            {"es": "Colores ocre, negro y rojo", "en": "Ochre, black and red colors", "qu": "Rumi tupuy", "ay": "Rumi tupiy"},
+            {"es": "Acabado natural sin esmalte", "en": "Natural finish without glaze", "qu": "Suma allpa", "ay": "Suma allpa"}
+          ],
+          "significado": {"es": "Conexión con la Pachamama (Madre Tierra)", "en": "Connection with Pachamama (Mother Earth)", "qu": "Pachamama kawsay", "ay": "Pachamama kawisiri"}
+        },
+        {
+          "id": 3.3,
+          "nombre": {"es": "Orfebrería Andina", "en": "Andean Goldsmithing", "qu": "Qori Rupay", "ay": "Qori Rupay"},
+          "descripcion": {"es": "Trabajo artesanal con metales preciosos siguiendo técnicas prehispánicas ancestrales.", "en": "Artisanal work with precious metals following ancestral pre-Hispanic techniques.", "qu": "Qori rupay inka tupuy", "ay": "Qori rupay inka tupiy"},
+          "fechaAniversario": "Festividades religiosas",
+          "imagen": "img/Cultura/ORFEBRERIA PUNO.webp",
+          "caracteristicas": [
+            {"es": "Oro, plata y cobre trabajados", "en": "Gold, silver and copper worked", "qu": "Qori, kuyllur, puka metal", "ay": "Qori, kuyllur, puka metal"},
+            {"es": "Técnicas de filigrana", "en": "Filigree techniques", "qu": "Sumaq qillqay", "ay": "Sumaj qillqay"},
+            {"es": "Diseños con iconografía andina", "en": "Designs with Andean iconography", "qu": "Apu qillqay", "ay": "Apu qillqay"},
+            {"es": "Piezas rituales y ceremoniales", "en": "Ritual and ceremonial pieces", "qu": "Apunchik rupay", "ay": "Apunchik rupay"}
+          ],
+          "significado": {"es": "Manifestación de riqueza, poder y conexión con lo divino", "en": "Manifestation of wealth, power and connection with the divine", "qu": "Hatun kawsay", "ay": "Hatun kawisiri"}
+        },
+        {
+          "id": 3.4,
+          "nombre": {"es": "Gastronomía Ritual", "en": "Ritual Gastronomy", "qu": "Michuy Tupuy", "ay": "Michiy Tupiy"},
+          "descripcion": {"es": "Preparación ceremonial de alimentos con significado espiritual en celebraciones comunitarias.", "en": "Ceremonial food preparation with spiritual significance in community celebrations.", "qu": "Michuy apunchik tupuy", "ay": "Michiy apunchik tupiy"},
+          "fechaAniversario": "Festividades anuales",
+          "imagen": "img/Cultura/GASTRONOMIA RITUAL.jpg",
+          "caracteristicas": [
+            {"es": "Ofrendas a la Pachamama", "en": "Offerings to Pachamama", "qu": "Pachamama michuy", "ay": "Pachamama michiy"},
+            {"es": "Alimentos ancestrales como base", "en": "Ancestral foods as base", "qu": "Machu michuy", "ay": "Machu michiy"},
+            {"es": "Rituales previos a la comida", "en": "Pre-meal rituals", "qu": "Apunchik rimay", "ay": "Apunchik rimawi"},
+            {"es": "Compartición comunitaria", "en": "Community sharing", "qu": "Ayllu tupuy", "ay": "Ayllu tupiy"}
+          ],
+          "significado": {"es": "Agradecimiento a la tierra y fortalecimiento de lazos comunitarios", "en": "Gratitude to the earth and strengthening of community bonds", "qu": "Pachamama sulpayki", "ay": "Pachamama sulpayki"}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": {"es": "Música Tradicional", "en": "Traditional Music", "qu": "Machu Taki", "ay": "Machu Taqi"},
+      "descripcion": {"es": "Composiciones y géneros musicales que preservan la identidad sonora andina ancestral.", "en": "Musical compositions and genres that preserve ancestral Andean sound identity.", "qu": "Machu músiqa tupuy", "ay": "Machu músiqa tupiy"},
+      "imagen": "img/Cultura/Sikuris.jpg",
+      "subcategorias": [
+        {
+          "id": 4.1,
+          "nombre": {"es": "Himno de Puno", "en": "Puno Anthem", "qu": "Punu Taki", "ay": "Punu Taqi"},
+          "descripcion": {"es": "Composición musical emblemática que exalta la gloria de Puno y su patrimonio cultural.", "en": "Emblematic musical composition exalting Puno's glory and cultural heritage.", "qu": "Punu sumaq músiqa", "ay": "Punu sumaj músiqa"},
+          "fechaAniversario": "4 de noviembre",
+          "imagen": "img/Cultura/HIMNO PUNO.jpg",
+          "caracteristicas": [
+            {"es": "Letra poética y nostálgica", "en": "Poetic and nostalgic lyrics", "qu": "Sumaq rimay", "ay": "Sumaj rimawi"},
+            {"es": "Melodía épica y solemne", "en": "Epic and solemn melody", "qu": "Hatun músiqa", "ay": "Hatun músiqa"},
+            {"es": "Se canta en actos oficiales", "en": "Sung at official events", "qu": "Llaqikuna tutay", "ay": "Lurañanaka tutay"},
+            {"es": "Compositor: Mariano Melgar", "en": "Composer: Mariano Melgar", "qu": "Mariano Melgar", "ay": "Mariano Melgar"}
+          ],
+          "significado": {"es": "Símbolo máximo de identidad puneña y orgullo regional", "en": "Maximum symbol of Puneño identity and regional pride", "qu": "Punu kawsay", "ay": "Punu kawisiri"}
+        },
+        {
+          "id": 4.2,
+          "nombre": {"es": "Sikuris (Zampoña)", "en": "Sikuris (Panpipes)", "qu": "Sikuri", "ay": "Sikiri"},
+          "descripcion": {"es": "Música ejecutada en zampoñas tradicionales, instrumento prehispánico de viento.", "en": "Music performed on traditional panpipes, a pre-Hispanic wind instrument.", "qu": "Sikuri músiqa", "ay": "Sikiri músiqa"},
+          "fechaAniversario": "Festividades",
+          "imagen": "img/Cultura/Sikuris.jpg",
+          "caracteristicas": [
+            {"es": "Instrumento de tubos de caña", "en": "Instrument made of reed tubes", "qu": "Totora pipa", "ay": "Totora pipa"},
+            {"es": "Sonido profundo y resonante", "en": "Deep and resonant sound", "qu": "Ama músiqa", "ay": "Ama músiqa"},
+            {"es": "Tocadas por grupos de sikuris", "en": "Played by sikuri groups", "qu": "Llaqikuna tupuy", "ay": "Lurañanaka tupiy"},
+            {"es": "Acompañamiento de danzas", "en": "Dance accompaniment", "qu": "Tusuy músiqa", "ay": "Tusiri músiqa"}
+          ],
+          "significado": {"es": "Vínculo con la naturaleza y los espíritus andinos", "en": "Link with nature and Andean spirits", "qu": "Apu músiqa", "ay": "Apu músiqa"}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": {"es": "Danzas de Luces", "en": "Light Dances", "qu": "Inti Tusuy", "ay": "Inti Tusiri"},
+      "descripcion": {"es": "Danzas nocturnas que juegan con luz, velas y efectos visuales especiales. Crean una atmósfera mágica.", "en": "Night dances that play with light, candles and special visual effects. Create a magical atmosphere.", "qu": "Tutamanta inti tupuy", "ay": "Tutamanta inti tusiri"},
+      "imagen": "img/Cultura/Morenada.png",
+      "subcategorias": [
+        {
+          "id": 2.1,
+          "nombre": {"es": "Danza del Fuego", "en": "Fire Dance", "qu": "Nina Tusuy", "ay": "Nina Tusiri"},
+          "descripcion": {"es": "Danza que simula las llamas del fuego con movimientos fluidos y trajes de colores cálidos.", "en": "Dance simulating flames with fluid movements and warm-colored costumes.", "qu": "Nina tupuy", "ay": "Nina tusiri"},
+          "fechaAniversario": "Festividades nocturnas",
+          "imagen": "img/Cultura/Morenada.png",
+          "caracteristicas": [
+            {"es": "Colores rojo, naranja y amarillo", "en": "Red, orange and yellow colors", "qu": "Puka, uchuy, qillu", "ay": "Puka, uchuy, qillu"},
+            {"es": "Movimientos ondulantes", "en": "Undulating movements", "qu": "Mayu tupuy", "ay": "Mayu tupiri"},
+            {"es": "Antorchas y luces de fuego", "en": "Torches and fire lights", "qu": "Nina qhawarina", "ay": "Nina qhawarina"},
+            {"es": "Música con ritmo ardiente", "en": "Fiery rhythm music", "qu": "Niña músiqa", "ay": "Niña músiqa"}
+          ],
+          "significado": {"es": "Representa el fuego sagrado de los ancestros andinos", "en": "Represents the sacred fire of Andean ancestors", "qu": "Apu nina", "ay": "Apu nina"}
+        },
+        {
+          "id": 2.2,
+          "nombre": {"es": "Festividad Candelaria", "en": "Candlemas Festival", "qu": "Qandelaria Fiesta", "ay": "Qandelaria Fiesta"},
+          "descripcion": {"es": "Celebración religiosa y folclórica de dos semanas con procesiones y danzas autóctonas.", "en": "Religious and folkloric celebration with processions and native dances.", "qu": "Dios rimay fiesta", "ay": "Dios rimawi fiesta"},
+          "fechaAniversario": "2 de febrero",
+          "imagen": "img/Cultura/Diablada.jpg",
+          "caracteristicas": [
+            {"es": "Duración más de 2 semanas", "en": "Duration more than 2 weeks", "qu": "Chunka iskayta puna", "ay": "Chunka iskayta puna"},
+            {"es": "Procesiones religiosas", "en": "Religious processions", "qu": "Procisión", "ay": "Procisión"},
+            {"es": "Participan miles de personas", "en": "Thousands participate", "qu": "Llaqikuna", "ay": "Lurañanaka"},
+            {"es": "Mezcla religión y cosmovisión andina", "en": "Blend of religion and Andean worldview", "qu": "Iskaynin tupuy", "ay": "Iskaynin tupiy"}
+          ],
+          "significado": {"es": "La fiesta más importante de Puno, símbolo de identidad regional", "en": "The most important festival of Puno, symbol of regional identity", "qu": "Punu hatun fiesta", "ay": "Punu hatun fiesta"}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": {"es": "Costumbres y Tradiciones", "en": "Customs and Traditions", "qu": "Kawsay Usunakuna", "ay": "Kawisiri Usunakuna"},
+      "descripcion": {"es": "Prácticas ancestrales vigentes que definen la identidad cultural puneña en la vida cotidiana.", "en": "Ancestral practices that define Puneño cultural identity in daily life.", "qu": "Runa kawsay tupuy", "ay": "Runa kawisiri tupuy"},
+      "imagen": "img/Cultura/Tejido puneño.jpg",
+      "subcategorias": [
+        {
+          "id": 3.1,
+          "nombre": {"es": "Tejido Puneño", "en": "Puneño Weaving", "qu": "Punu Aswan", "ay": "Punu Aswan"},
+          "descripcion": {"es": "Arte ancestral de tejido en telares tradicionales con motivos andinos únicos.", "en": "Ancestral art of weaving on traditional looms with unique Andean motifs.", "qu": "Mayu awapa tupunapaq aswan", "ay": "Mayu awapa tupunapaq aswan"},
+          "fechaAniversario": "Todo el año",
+          "imagen": "img/Cultura/Tejido puneño.jpg",
+          "caracteristicas": [
+            {"es": "Telares manuales tradicionales", "en": "Traditional manual looms", "qu": "Mayu rikisqa", "ay": "Mayu rikisqa"},
+            {"es": "Lanas teñidas naturalmente", "en": "Naturally dyed wool", "qu": "Llantu tupuy", "ay": "Llantu tupuy"},
+            {"es": "Motivos geométricos prehispánicos", "en": "Pre-Hispanic geometric motifs", "qu": "Inka qillqay", "ay": "Inka qillqay"},
+            {"es": "Cada pieza es única e irrepetible", "en": "Each piece is unique and unrepeatable", "qu": "Maynillachu aswan", "ay": "Maynillachu aswan"}
+          ],
+          "significado": {"es": "Expresión de identidad cultural. Los diseños cuentan historias ancestrales", "en": "Expression of cultural identity. Designs tell ancestral stories", "qu": "Runa kawsay qillqay", "ay": "Runa kawisiri qillqay"}
+        },
+        {
+          "id": 3.2,
+          "nombre": {"es": "Cerámica Andina", "en": "Andean Ceramics", "qu": "Apachita Rupay", "ay": "Apachita Rupay"},
+          "descripcion": {"es": "Creación de vasijas de barro con formas rituales y decorativas de tradición ancestral.", "en": "Creation of clay vessels with ritual and decorative forms of ancestral tradition.", "qu": "Allpa rupay inka tupuy", "ay": "Allpa rupay inka tupiy"},
+          "fechaAniversario": "Mercados artesanales",
+          "imagen": "img/Cultura/Tejido puneño.jpg",
+          "caracteristicas": [
+            {"es": "Arcilla local moldeada a mano", "en": "Locally molded clay by hand", "qu": "Allpa runakunapa", "ay": "Allpa runakunapa"},
+            {"es": "Símbolos religiosos andinos", "en": "Andean religious symbols", "qu": "Apunchik tupuy", "ay": "Apunchik tupiy"},
+            {"es": "Colores ocre, negro y rojo", "en": "Ochre, black and red colors", "qu": "Rumi tupuy", "ay": "Rumi tupiy"},
+            {"es": "Acabado natural sin esmalte", "en": "Natural finish without glaze", "qu": "Suma allpa", "ay": "Suma allpa"}
+          ],
+          "significado": {"es": "Conexión con la Pachamama (Madre Tierra)", "en": "Connection with Pachamama (Mother Earth)", "qu": "Pachamama kawsay", "ay": "Pachamama kawisiri"}
+        },
+        {
+          "id": 3.3,
+          "nombre": {"es": "Orfebrería Andina", "en": "Andean Goldsmithing", "qu": "Qori Rupay", "ay": "Qori Rupay"},
+          "descripcion": {"es": "Trabajo artesanal con metales preciosos siguiendo técnicas prehispánicas ancestrales.", "en": "Artisanal work with precious metals following ancestral pre-Hispanic techniques.", "qu": "Qori rupay inka tupuy", "ay": "Qori rupay inka tupiy"},
+          "fechaAniversario": "Festividades religiosas",
+          "imagen": "img/Cultura/GASTRONOMIA RITUAL.jpg",
+          "caracteristicas": [
+            {"es": "Oro, plata y cobre trabajados", "en": "Gold, silver and copper worked", "qu": "Qori, kuyllur, puka metal", "ay": "Qori, kuyllur, puka metal"},
+            {"es": "Técnicas de filigrana", "en": "Filigree techniques", "qu": "Sumaq qillqay", "ay": "Sumaj qillqay"},
+            {"es": "Diseños con iconografía andina", "en": "Designs with Andean iconography", "qu": "Apu qillqay", "ay": "Apu qillqay"},
+            {"es": "Piezas rituales y ceremoniales", "en": "Ritual and ceremonial pieces", "qu": "Apunchik rupay", "ay": "Apunchik rupay"}
+          ],
+          "significado": {"es": "Manifestación de riqueza, poder y conexión con lo divino", "en": "Manifestation of wealth, power and connection with the divine", "qu": "Hatun kawsay", "ay": "Hatun kawisiri"}
+        },
+        {
+          "id": 3.4,
+          "nombre": {"es": "Gastronomía Ritual", "en": "Ritual Gastronomy", "qu": "Michuy Tupuy", "ay": "Michiy Tupiy"},
+          "descripcion": {"es": "Preparación ceremonial de alimentos con significado espiritual en celebraciones comunitarias.", "en": "Ceremonial food preparation with spiritual significance in community celebrations.", "qu": "Michuy apunchik tupuy", "ay": "Michiy apunchik tupiy"},
+          "fechaAniversario": "Festividades anuales",
+          "imagen": "img/Cultura/GASTRONOMIA RITUAL.jpg",
+          "caracteristicas": [
+            {"es": "Ofrendas a la Pachamama", "en": "Offerings to Pachamama", "qu": "Pachamama michuy", "ay": "Pachamama michiy"},
+            {"es": "Alimentos ancestrales como base", "en": "Ancestral foods as base", "qu": "Machu michuy", "ay": "Machu michiy"},
+            {"es": "Rituales previos a la comida", "en": "Pre-meal rituals", "qu": "Apunchik rimay", "ay": "Apunchik rimawi"},
+            {"es": "Compartición comunitaria", "en": "Community sharing", "qu": "Ayllu tupuy", "ay": "Ayllu tupiy"}
+          ],
+          "significado": {"es": "Agradecimiento a la tierra y fortalecimiento de lazos comunitarios", "en": "Gratitude to the earth and strengthening of community bonds", "qu": "Pachamama sulpayki", "ay": "Pachamama sulpayki"}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": {"es": "Música Tradicional", "en": "Traditional Music", "qu": "Machu Taki", "ay": "Machu Taqi"},
+      "descripcion": {"es": "Composiciones y géneros musicales que preservan la identidad sonora andina ancestral.", "en": "Musical compositions and genres that preserve ancestral Andean sound identity.", "qu": "Machu músiqa tupuy", "ay": "Machu músiqa tupiy"},
+      "imagen": "img/Cultura/Sikuris.jpg",
+      "subcategorias": [
+        {
+          "id": 4.1,
+          "nombre": {"es": "Himno de Puno", "en": "Puno Anthem", "qu": "Punu Taki", "ay": "Punu Taqi"},
+          "descripcion": {"es": "Composición musical emblemática que exalta la gloria de Puno y su patrimonio cultural.", "en": "Emblematic musical composition exalting Puno's glory and cultural heritage.", "qu": "Punu sumaq músiqa", "ay": "Punu sumaj músiqa"},
+          "fechaAniversario": "4 de noviembre",
+          "imagen": "img/Cultura/HIMNO PUNO.jpg",
+          "caracteristicas": [
+            {"es": "Letra poética y nostálgica", "en": "Poetic and nostalgic lyrics", "qu": "Sumaq rimay", "ay": "Sumaj rimawi"},
+            {"es": "Melodía épica y solemne", "en": "Epic and solemn melody", "qu": "Hatun músiqa", "ay": "Hatun músiqa"},
+            {"es": "Se canta en actos oficiales", "en": "Sung at official events", "qu": "Llaqikuna tutay", "ay": "Lurañanaka tutay"},
+            {"es": "Compositor: Mariano Melgar", "en": "Composer: Mariano Melgar", "qu": "Mariano Melgar", "ay": "Mariano Melgar"}
+          ],
+          "significado": {"es": "Símbolo máximo de identidad puneña y orgullo regional", "en": "Maximum symbol of Puneño identity and regional pride", "qu": "Punu kawsay", "ay": "Punu kawisiri"}
+        },
+        {
+          "id": 4.2,
+          "nombre": {"es": "Sikuris (Zampoña)", "en": "Sikuris (Panpipes)", "qu": "Sikuri", "ay": "Sikiri"},
+          "descripcion": {"es": "Música ejecutada en zampoñas tradicionales, instrumento prehispánico de viento.", "en": "Music performed on traditional panpipes, a pre-Hispanic wind instrument.", "qu": "Sikuri músiqa", "ay": "Sikiri músiqa"},
+          "fechaAniversario": "Festividades",
+          "imagen": "img/Cultura/Sikuris.jpg",
+          "caracteristicas": [
+            {"es": "Instrumento de tubos de caña", "en": "Instrument made of reed tubes", "qu": "Totora pipa", "ay": "Totora pipa"},
+            {"es": "Sonido profundo y resonante", "en": "Deep and resonant sound", "qu": "Ama músiqa", "ay": "Ama músiqa"},
+            {"es": "Tocadas por grupos de sikuris", "en": "Played by sikuri groups", "qu": "Llaqikuna tupuy", "ay": "Lurañanaka tupiy"},
+            {"es": "Acompañamiento de danzas", "en": "Dance accompaniment", "qu": "Tusuy músiqa", "ay": "Tusiri músiqa"}
+          ],
+          "significado": {"es": "Vínculo con la naturaleza y los espíritus andinos", "en": "Link with nature and Andean spirits", "qu": "Apu músiqa", "ay": "Apu músiqa"}
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <title data-i18n="itinerarioTitle">Itinerarios Atractivos de Puno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-itinerario">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container-fluid">
+                <a class="navbar-brand fw-bold navbar-brand-custom" href="index.html">
+                <img src="img/logo/Logo.jpg" class="logo-img" alt="Logo"> <span class="brand-text">PUNO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item"><a class="nav-link nav-link-custom" data-i18n="inicio" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" data-i18n="destinos" href="destinos.html">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" data-i18n="culturas" href="culturas.html">Culturas</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" data-i18n="gastronomia" href="gastronomia.html">Gastronomía</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" data-i18n="itinerario" href="itinerario.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="blog.html">Blog</a></li>
+                </ul>
+                <div class="idioma-selector">
+                    <button class="btn-idioma active" onclick="cambiarIdioma('es'); actualizarPagina()">ES</button>
+                    <button class="btn-idioma" onclick="cambiarIdioma('en'); actualizarPagina()">EN</button>
+                    <button class="btn-idioma" onclick="cambiarIdioma('qu'); actualizarPagina()">QU</button>
+                    <button class="btn-idioma" onclick="cambiarIdioma('ay'); actualizarPagina()">AY</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div id="carouselHeroItinerario" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4200">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide-background" style="background-image: url('img/Destinos/Lago titicaca.jpg');"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="content-left">
+                            <h1 class="display-3 fw-bold">Planifica experiencias inolvidables</h1>
+                            <p class="lead">Itinerarios diseñados para cada tipo de viajero: cultural, aventura o relax.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-background" style="background-image: url('img/Destinos/Isla Amantani.webp');"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="content-left">
+                            <h1 class="display-3 fw-bold">Experiencias vivenciales</h1>
+                            <p class="lead">Hospedajes en comunidades, caminatas y sabores locales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-background" style="background-image: url('img/Destinos/Isla Uros.jpg');"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="content-left">
+                            <h1 class="display-3 fw-bold">Excursiones al Titicaca</h1>
+                            <p class="lead">Salidas diarias a islas y sitios emblemáticos del lago.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeroItinerario" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeroItinerario" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <h1 data-i18n="itinerarioTitle" class="mb-5 section-hero-title">Itinerarios Atractivos</h1>
+            <div class="row g-4" id="itinerarios-container">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-5">Información Práctica</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card card-accent h-100">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-plane fa-3x text-primary mb-3"></i>
+                                    <h5 class="card-title">Cómo Llegar</h5>
+                                    <p class="card-text mb-0">Vuelos a Juliaca, buses desde Lima/Cusco, trenes panorámicos y transfers privados. Ver detalles en la barra lateral.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-accent h-100">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-clock fa-3x text-primary mb-3"></i>
+                                    <h5 class="card-title">Mejor Época</h5>
+                                    <p class="card-text mb-0">Mayo a Septiembre — clima seco y cielos despejados. Temporada alta para turismo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-accent h-100">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-cloud fa-3x text-primary mb-3"></i>
+                                    <h5 class="card-title">Clima</h5>
+                                    <p class="card-text mb-0">Días templados, noches frías. Ropa por capas y protector solar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-accent h-100">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-money-bill fa-3x text-primary mb-3"></i>
+                                    <h5 class="card-title">Moneda</h5>
+                                    <p class="card-text mb-0">Sol Peruano (S/). Cajeros disponibles; lleva efectivo para mercados y lanzas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-lg-4">
+                    <div class="sticky-sidebar">
+                        <div class="card sidebar-card mb-4">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Agencias Recomendadas</h6>
+                                <ul class="list-unstyled info-list mt-3">
+                                    <li>• Rutas del Perú — Tel: +51 923 923 932 (tours y transfer)</li>
+                                    <li>• Andean Travel — Reservas online y excursiones privadas</li>
+                                    <li>• Lago Tours — Excursiones al Titicaca y visitas a islas</li>
+                                </ul>
+                                <a href="#" class="d-block mt-3 text-primary">Ver más agencias »</a>
+                            </div>
+                        </div>
+                        <div class="card sidebar-card mb-4">
+                            <div class="card-body">
+                                <h6 class="fw-bold">FAQ Rápido</h6>
+                                <ul class="info-list mt-2">
+                                    <li><strong>¿Necesito adaptación a la altura?</strong> Sí, descansa 24h y evita esfuerzos intensos.</li>
+                                    <li><strong>¿Hay Internet?</strong> Wi‑Fi en hoteles y cafés; cobertura móvil variable en zonas remotas.</li>
+                                    <li><strong>¿Agua potable?</strong> Evita agua del grifo — utiliza agua embotellada.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card sidebar-card mb-4">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Estimaciones Rápidas</h6>
+                                <table class="estimate-table mt-2">
+                                    <tr><td>Juliaca → Puno</td><td class="text-end">45 min • S/ 25–40</td></tr>
+                                    <tr><td>Bus Lima → Puno</td><td class="text-end">~20 h • S/ 120–250</td></tr>
+                                    <tr><td>Excursión Titicaca</td><td class="text-end">1 día • S/ 80–160</td></tr>
+                                </table>
+                                <a href="#reserva-form" class="btn btn-primary btn-quick-contact mt-3 w-100">Reservar Asesoría</a>
+                            </div>
+                        </div>
+                        <div class="card sidebar-card">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Contacto Express</h6>
+                                <p class="mb-1">WhatsApp: <a href="https://wa.me/51923923932" class="text-decoration-none">+51 923 923 932</a></p>
+                                <p class="mb-0">Email: <a href="mailto:info@rutasdelperu.com" class="text-decoration-none">info@rutasdelperu.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-5">Contáctanos para Reservar</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="reserva-form">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="itinerario" class="form-label">Itinerario de Interés</label>
+                                <select class="form-select" id="itinerario" required>
+                                    <option value="" selected disabled>Selecciona un itinerario</option>
+                                    <option value="tour-clasico">Tour Clásico - 3 Días</option>
+                                    <option value="aventura-completa">Aventura Completa - 5 Días</option>
+                                    <option value="excursion-titicaca">Excursión Lago Titicaca - 1 Día</option>
+                                    <option value="familiar-relax">Familiar / Relax - 2 Días</option>
+                                    <option value="experiencia-cultural">Experiencia Cultural - 4 Días</option>
+                                    <option value="trekking-aventura">Trekking & Aventura - 6 Días</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="fecha" class="form-label">Fecha de Viaje</label>
+                                <input type="date" class="form-control" id="fecha" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="personas" class="form-label">Número de Personas</label>
+                                <input type="number" class="form-control" id="personas" min="1" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Solicitud</button>
+                        <div id="estimacion-presupuesto" class="mt-3" style="display:none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container text-center">
+            <p>&copy; 2026 Puno Turístico - Todos los derechos reservados</p>
+            <p>Contacto: +51 923923932 | info@rutasdelperu.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/idiomas.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

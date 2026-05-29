@@ -1,0 +1,169 @@
+{
+  "itinerarios": [
+    {
+      "id": 1,
+      "nombre": {
+        "es": "Tour Clásico de Puno - 3 Días",
+        "en": "Classic Puno Tour - 3 Days",
+        "qu": "Punu Atikuy - 3 P'unchaw",
+        "ay": "Punu Atikuy - 3 P'unchaw"
+      },
+      "duracion": "3 días / 2 noches",
+      "dificultad": "Moderada",
+      "dias": [
+        {
+          "numero": 1,
+          "titulo": {
+            "es": "Llegada y Ciudad de Puno",
+            "en": "Arrival and City of Puno",
+            "qu": "Sukay, Punu Llaqta",
+            "ay": "Sukay, Punu Llaqta"
+          },
+          "actividades": [
+            {"es": "Llegada al aeropuerto de Juliaca", "en": "Arrival at Juliaca airport", "qu": "Juliaka ayroportapi sukay", "ay": "Juliaka ayroportapi sukay"},
+            {"es": "Traslado a Puno (1 hora)", "en": "Transfer to Puno (1 hour)", "qu": "Punu puri", "ay": "Punu puri"},
+            {"es": "Recorrido por la plaza de armas", "en": "Tour of the main plaza", "qu": "Plaza llaqta qhawary", "ay": "Plaza llaqta qhawari"},
+            {"es": "Visita a la Catedral Basílica", "en": "Visit to the Basilica Cathedral", "qu": "Iglesia riqichiy", "ay": "Iglesia riqichiri"},
+            {"es": "Cena típica en restaurante local", "en": "Typical dinner at local restaurant", "qu": "Punu mikhuna", "ay": "Punu manq'aña"}
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": {
+            "es": "Islas Flotantes y Lago Titicaca",
+            "en": "Floating Islands and Lake Titicaca",
+            "qu": "Isla Totora, Titiqaqa Qucha",
+            "ay": "Isla Totora, Titiqaqa Laqu"
+          },
+          "actividades": [
+            {"es": "Salida temprana hacia las Islas Uros", "en": "Early departure to Uros Islands", "qu": "Uros Aylluman llaqiy", "ay": "Uros Aylluman llaqiy"},
+            {"es": "Recorrido en bote sobre totora", "en": "Boat ride on totora", "qu": "Bota purini totorapi", "ay": "Bota purini totorapi"},
+            {"es": "Interacción con comunidades Uros", "en": "Interaction with Uros communities", "qu": "Uros runakuna tupukunay", "ay": "Uros runakuna tupukunay"},
+            {"es": "Almuerzo con pescado fresco", "en": "Lunch with fresh fish", "qu": "Mikhuna challhu", "ay": "Manq'aña challhu"},
+            {"es": "Visita a Isla Taquile", "en": "Visit to Taquile Island", "qu": "Taqile isla riqichiy", "ay": "Taqile isla riqichiri"},
+            {"es": "Regreso a Puno al atardecer", "en": "Return to Puno at sunset", "qu": "Punu kutiy ch'inqui pacha", "ay": "Punu kutiy ch'inqui pacha"}
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": {
+            "es": "Chullpas de Sillustani",
+            "en": "Sillustani Towers",
+            "qu": "Sillustani Purun",
+            "ay": "Sillustani Pukara"
+          },
+          "actividades": [
+            {"es": "Desayuno en el hotel", "en": "Breakfast at hotel", "qu": "Tanta mikhuna", "ay": "Tanta manq'aña"},
+            {"es": "Excursión a Sillustani (40 km)", "en": "Excursion to Sillustani (40 km)", "qu": "Sillustani puriy", "ay": "Sillustani puriy"},
+            {"es": "Recorrido guiado por arqueólogo", "en": "Guided tour by archaeologist", "qu": "Runa rimay rikuchiy", "ay": "Runa rimay rikuchiri"},
+            {"es": "Fotografía de tumbas preincaicas", "en": "Photography of pre-Incan tombs", "qu": "Purun qillqachiy", "ay": "Purun qillqachiri"},
+            {"es": "Picnic con comida puneña", "en": "Picnic with Puneño food", "qu": "Alli mikhunakuy", "ay": "Alli manq'asiri"},
+            {"es": "Regreso a Puno", "en": "Return to Puno", "qu": "Punu kutiy", "ay": "Punu kutiy"},
+            {"es": "Traslado al aeropuerto", "en": "Transfer to airport", "qu": "Ayroportu puri", "ay": "Ayroportu puri"}
+          ]
+        }
+      ],
+      "incluye": [
+        {"es": "Hospedaje en hotel 3 estrellas", "en": "3-star hotel accommodation", "qu": "Hotel tiyay", "ay": "Hotel tiyay"},
+        {"es": "Tours guiados", "en": "Guided tours", "qu": "Rikuchiq", "ay": "Rikuchiq"},
+        {"es": "Transporte", "en": "Transport", "qu": "Kuriy", "ay": "Kuriy"},
+        {"es": "Comidas", "en": "Meals", "qu": "Mikhuna", "ay": "Manq'aña"}
+      ],
+      "precio": "Desde S/ 500 por persona",
+      "imagen": "img/pictures/lagotiticaca.gif"
+    },
+    {
+      "id": 2,
+      "nombre": {
+        "es": "Aventura Completa - 5 Días",
+        "en": "Complete Adventure - 5 Days",
+        "qu": "Alli Atikuy - 5 P'unchaw",
+        "ay": "Alli Atikuy - 5 P'unchaw"
+      },
+      "duracion": "5 días / 4 noches",
+      "dificultad": "Moderada a Alta",
+      "dias": [
+        {
+          "numero": 1,
+          "titulo": {
+            "es": "Puno y su Historia",
+            "en": "Puno and its History",
+            "qu": "Punu Hamawta",
+            "ay": "Punu Hamawta"
+          },
+          "actividades": [
+            {"es": "Llegada y aclimatación", "en": "Arrival and acclimatization", "qu": "Sukay", "ay": "Sukay"},
+            {"es": "Tour nocturno de Puno", "en": "Night tour of Puno", "qu": "Tuta Punu qhawary", "ay": "Tuta Punu qhawari"},
+            {"es": "Cena folklore", "en": "Folklore dinner", "qu": "Tuta mikhuna tupuy", "ay": "Tuta manq'aña tupuy"}
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": {
+            "es": "Islas Uros y Taquile",
+            "en": "Uros and Taquile Islands",
+            "qu": "Uros Taquile Isla",
+            "ay": "Uros Taquile Isla"
+          },
+          "actividades": [
+            {"es": "Navegación completa del lago", "en": "Complete lake navigation", "qu": "Qucha puriy", "ay": "Laqu puriy"},
+            {"es": "Almuerzo en islas flotantes", "en": "Lunch on floating islands", "qu": "Isla totorapi mikhuna", "ay": "Isla totorapi manq'aña"},
+            {"es": "Taller de tejeduría", "en": "Weaving workshop", "qu": "Aswan llaqikuy", "ay": "Aswan llaqikuri"},
+            {"es": "Pernoctación en Taquile", "en": "Overnight stay in Taquile", "qu": "Taquile tiyay", "ay": "Taquile tiyay"}
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": {
+            "es": "Reserva Nacional del Titicaca",
+            "en": "Titicaca National Reserve",
+            "qu": "Titiqaqa Mamaypa",
+            "ay": "Titiqaqa Mamaypa"
+          },
+          "actividades": [
+            {"es": "Avistamiento de aves", "en": "Bird watching", "qu": "Paxaru qhawary", "ay": "Paxaru qhawari"},
+            {"es": "Senderismo interpretativo", "en": "Interpretive hiking", "qu": "Ñan puriy", "ay": "Ñan puriy"},
+            {"es": "Fotografía de fauna", "en": "Wildlife photography", "qu": "Llama qillqachiy", "ay": "Llama qillqachiri"}
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": {
+            "es": "Sillustani y Laguna Umayo",
+            "en": "Sillustani and Umayo Lake",
+            "qu": "Sillustani Umayo Qucha",
+            "ay": "Sillustani Umayo Laqu"
+          },
+          "actividades": [
+            {"es": "Arqueología andina", "en": "Andean archaeology", "qu": "Runa hamawta", "ay": "Runa hamawta"},
+            {"es": "Caminata alrededor de laguna", "en": "Hike around lake", "qu": "Qucha pumpunku puriy", "ay": "Laqu pumpunku puriy"},
+            {"es": "Picnic en sitio arqueológico", "en": "Picnic at archaeological site", "qu": "Purun mikhunakuy", "ay": "Purun manq'asiri"}
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": {
+            "es": "Gastronomía y Despedida",
+            "en": "Gastronomy and Farewell",
+            "qu": "Mikhuna Kutiy",
+            "ay": "Manq'aña Kutiy"
+          },
+          "actividades": [
+            {"es": "Clase de cocina puneña", "en": "Puno cooking class", "qu": "Mikhuna rurana", "ay": "Manq'aña lurawi"},
+            {"es": "Visita a mercado tradicional", "en": "Visit traditional market", "qu": "Tiyu llaqta", "ay": "Tiyu llaqta"},
+            {"es": "Cena de despedida", "en": "Farewell dinner", "qu": "Kutiy mikhuna", "ay": "Kutiy manq'aña"},
+            {"es": "Traslado al aeropuerto", "en": "Transfer to airport", "qu": "Ayroportu puri", "ay": "Ayroportu puri"}
+          ]
+        }
+      ],
+      "incluye": [
+        {"es": "Hospedaje 4 estrellas", "en": "4-star accommodation", "qu": "Alli hotel", "ay": "Alli hotel"},
+        {"es": "Tours especializados", "en": "Specialized tours", "qu": "Sumaq rikuchiq", "ay": "Sumaj rikuchiq"},
+        {"es": "Todas las comidas", "en": "All meals", "qu": "Llapan mikhuna", "ay": "Llapan manq'aña"},
+        {"es": "Guía profesional", "en": "Professional guide", "qu": "Rimachiq", "ay": "Rimachiq"}
+      ],
+      "precio": "Desde S/ 1200 por persona",
+      "imagen": "img/pictures/lagotiticaca.gif"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+Resumen de comprobación de imágenes (29 May 2026)
+
+Directorios inspeccionados dentro de `img/`:
+- backgrounds: [Lago titicaca.webp, Fondo.jpg]
+- logo: [Logo.jpg]
+- gastronomia: [Ceviche de Trucha.jpg, Papa a la Huancaina.webp, Thimpo de Trucha.jpg, Mazamorra de Tocosh.jpg, Pito de canihua.jpg, Sopa de Quinua.avif, Uchucuta.jpg, Kankacho.aspx, chajchu de Chuño.jpg]
+- Puno: ACCESS DENIED (EPERM)
+- Platos: ACCESS DENIED (EPERM)
+- destinos: NOT FOUND
+- culturas: NOT FOUND
+- pictures: NOT FOUND
+
+Rutas `imagen` encontradas en JSON y estado:
+
+From data/destinos.json:
+- img/pictures/lagotiticaca.gif -> MISSING (dir `img/pictures` not found)
+- img/destinos/Isla uros.jpg -> MISSING (dir `img/destinos` not found)
+- img/destinos/isla taquile.png -> MISSING
+- img/destinos/sillustani.jpg -> MISSING
+- img/destinos/kuntur wasi.webp -> MISSING
+- img/destinos/catedral.jpg -> MISSING
+- img/destinos/Kalasaya-Pucara.jpg -> MISSING
+- img/destinos/Tinajani-Ayaviri.jpg -> MISSING
+- img/destinos/Puerta del Diablo - Aramu Muru.webp -> MISSING
+- img/destinos/Templo de la fertilidad-Chucuito.jpg -> MISSING
+
+From data/culturas.json:
+- img/culturas/Candelaria-Puno.png -> MISSING (dir `img/culturas` not found)
+- img/culturas/Danza-Negritos-de-Taquile.jpg -> MISSING
+- img/culturas/Diablada-Puno.jpg -> MISSING
+- img/culturas/morenada.jpg -> MISSING
+- img/culturas/Ayarachis.jpg -> MISSING
+- img/culturas/Tarkas.jpg -> MISSING
+- img/culturas/Tejido Puno.jpg -> MISSING
+- img/culturas/Ceramica andina.webp -> MISSING
+- img/culturas/Orfebreria Puno.jpg -> MISSING
+
+From data/gastronomia.json:
+(all referenced images found in `img/gastronomia`)
+- img/gastronomia/Ceviche de Trucha.jpg -> PRESENT
+- img/gastronomia/Thimpo de Trucha.jpg -> PRESENT
+- img/gastronomia/Papa a la Huancaina.webp -> PRESENT
+- img/gastronomia/chajchu de Chuño.jpg -> PRESENT
+- img/gastronomia/Sopa de Quinua.avif -> PRESENT
+- img/gastronomia/Pito de canihua.jpg -> PRESENT
+- img/gastronomia/Mazamorra de Tocosh.jpg -> PRESENT
+- img/gastronomia/Uchucuta.jpg -> PRESENT
+- img/gastronomia/Kankacho.aspx -> PRESENT (file exists)
+
+From data/itinerarios.json:
+- img/pictures/lagotiticaca.gif -> MISSING (dir `img/pictures` not found)
+
+Notas:
+- Muchas rutas en los JSON apuntan a carpetas (`img/destinos`, `img/culturas`, `img/pictures`) que no existen en el directorio `img/` accesible.
+- Dos carpetas (`img/Puno`, `img/Platos`) existen pero la operación fue denegada por el sistema (EPERM). Es posible que las imágenes originales estén ahí pero el agente no puede leerlas sin permisos elevados.
+
+Siguientes pasos sugeridos (elige una opción):
+A) Yo normalizo automáticamente las rutas en los JSON solo para las imágenes que actualmente existen (no tocaré las que están en carpetas protegidas).
+B) Genero un script/instrucciones para que ejecutes como Administrador y así puedo listar/recuperar las imágenes en `img/Puno` y `img/Platos`.
+C) Reemplazo las rutas faltantes por un placeholder temporal (p. ej. `img/backgrounds/Fondo.jpg`) para que todo sea visible ahora (esto sobrescribirá rutas faltantes; ya hice backups).
+D) Solo quieres que muestre este informe y no haga cambios.
+
+Indica A/B/C/D y procedo.
