@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto: Página Turística - Puno
 
 Breve sitio estático para la promoción turística de Puno (HTML/CSS/JS). Esta carpeta contiene los recursos del curso "Desarrollo Basado en Plataformas I" — práctica calificada.
@@ -322,3 +323,7 @@ Para más información sobre Puno, visita:
 - [PromPerú](https://www.promperu.gob.pe/)
 - [Wikipedia Puno](https://es.wikipedia.org/wiki/Puno)
 
+=======
+# maximilianoyana-stack.github.io
+City of Puno very Beautifull II Mi one Proyect
+>>>>>>> df6d3423c889ca0d63c0da62e5b92f27f50b5706
